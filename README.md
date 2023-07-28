@@ -5,6 +5,7 @@
 首先你要有一款好用的编辑器，比如我在用的：[IDEA](https://raw.githubusercontent.com/shiyang0510/pcl2-sy/main/Help/%E5%AD%90%E9%A1%B5%E9%9D%A22.xaml)\
 （没打钱，纯推荐）
 我建议咱们 `边看` 然后打开你的XAML `边写`
+
 ---
 ## 第一章 纯文本（TextBlock）
 - Text：设置显示的文本（如果要使用引号等特殊字符，自行百度 XAML 转义）
@@ -23,6 +24,7 @@
 他输出的，大概就是：\
 冷知识：仕洋team成立于2023/3/14
 只是文字颜色不对
+
 ---
 ## 第二章 图片（Image）
 - Source：要显示的图片的网址
@@ -36,6 +38,7 @@
 `<Image Source="https://github.com/shiyang0510/pcl2-sy/blob/main/b.png?raw=true" HorizontalAlignment="Center"/>`\
 他输出的大概是 :
 ![仕洋的背景](https://github.com/shiyang0510/pcl2-sy/blob/main/b.png?raw=true "背景")
+
 ---
 ## 第三章 卡片（local:MyCard）
 - Title：设置显示的标题文本
@@ -49,6 +52,7 @@
 这个就没法演示了，因为`README.md`文件是无法表达这个控件的\
 那就发个源码吧：\
 `<local:MyCard Title="此设置，仅为仕洋team内部版本！看什么看，快去工作！" Margin="0,0,0,15" Height="35" CanSwap="False" IsSwaped="False" />`
+
 ---
 ## 第四章 提示条（local:MyHint）
 - Text：设置显示的文本（&#xA; 代表换行）
@@ -62,6 +66,7 @@
 所以大家写的时候一定要注意！\
 源码展示：\
 `<local:MyHint Text="如你所见，仕洋这个B还没更新" Margin="0,0,0,8" IsWarn="False" />`
+
 ---
 ## 第五章 按钮（local:MyButton）
 - Text：设置显示的文本
@@ -80,7 +85,6 @@
 第二个`Foregroun`的解决办法:\
 `<TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
 Text="不知道写什么"/>`
-
 
 ---
 ## 第六章 文本按钮（local:MyTextButton）

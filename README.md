@@ -97,5 +97,6 @@ Text="不知道写什么"/>`
 和按钮类似，这里不过多赘述。\
 源码展示：\
 `<local:MyTextButton Foreground="{DynamicResource ColorBrush2}" EventType="打开网页" EventData="https://space.bilibili.com/1151723944" Text="文本按钮" HorizontalAlignment="Center" />`
+
 ---
 ## 未完待续...

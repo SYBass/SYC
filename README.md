@@ -90,7 +90,7 @@ Text="不知道写什么"/>`
 ## 第六章 文本按钮（local:MyTextButton）
 - Text：设置显示的文本
 - EventType、EventData：触发特定事件
-- Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+- Foreground：调整前景颜色（`十六进制`字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
 - HorizontalAlignment：设置对齐方式（Left、Center、Right）
 
 解释：\

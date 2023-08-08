@@ -1,14 +1,75 @@
-﻿<local:MyCard Title="嘿！欢迎使用仕洋的自定义主页！关注一下吧，孩子没流量啦！" CanSwap="False" IsSwaped="False" Height="35"/>
+﻿<StackPanel.Resources>
+	<Style TargetType="TextBlock" x:Key="Text">
+		<Setter Property="FontWeight" Value="Bold"/>
+		<Setter Property="FontSize" Value="12"/>
+		<Setter Property="HorizontalAlignment" Value="Left"/>
+		<Setter Property="Margin" Value="65,12,0,0"/>
+	</Style>
+</StackPanel.Resources>
+<StackPanel.Triggers>
+	<EventTrigger RoutedEvent="StackPanel.Loaded" >
+		<BeginStoryboard>
+			<Storyboard x:Name="animation" RepeatBehavior="Forever" >
+				<ColorAnimation BeginTime="0:0:5"
+					Storyboard.TargetName="Text1"
+					Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"
+					From="#8D724C" To="#00000000" Duration="0:0:1"/>
+				<ColorAnimation BeginTime="0:0:16"
+					Storyboard.TargetName="Text1"
+					Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"
+					From="#00000000" To="#8D724C" Duration="0:0:1"/>
+				<ColorAnimation BeginTime="0:0:6"
+					Storyboard.TargetName="Text2"
+					Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"
+					From="#00000000" To="#8D724C" Duration="0:0:1"/>
+				<ColorAnimation BeginTime="0:0:10"
+					Storyboard.TargetName="Text2"
+					Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"
+					From="#8D724C" To="#00000000" Duration="0:0:1"/>
+				<ColorAnimation BeginTime="0:0:11"
+					Storyboard.TargetName="Text3"
+					Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"
+					From="#00000000" To="#8D724C" Duration="0:0:1"/>
+				<ColorAnimation BeginTime="0:0:15"
+					Storyboard.TargetName="Text3"
+					Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"
+					From="#8D724C" To="#00000000" Duration="0:0:1"/>
+
+			</Storyboard>
+		</BeginStoryboard>
+	</EventTrigger>
+</StackPanel.Triggers>
+<local:MyCard  Height="40" CanSwap="False" IsSwaped="False">
+
+    	<TextBlock x:Name="Text1" HorizontalAlignment="Left" Text=" Provided by Shiyang  " FontSize="13" Style="{StaticResource Text}" Foreground="#8D724C" Margin="12,12">
+
+	    </TextBlock>
+	    <TextBlock x:Name="Text2" HorizontalAlignment="Left" Text="『天生我材必有用，千金散尽还复来。』"   FontSize="13" Style="{StaticResource Text}" Foreground="#00000000"  Margin="12,12">
+
+	    </TextBlock>
+	    <TextBlock x:Name="Text3" HorizontalAlignment="Left" Text=" 2023/8/8更新 " Style="{StaticResource Text}"    FontSize="13" Foreground="#00000000"  Margin="12,12">
+
+	    </TextBlock>
+    </local:MyCard>
+
+
+
+
 <local:MyCard Title="更新说明" CanSwap="True" IsSwaped="True" Height="35" Margin="0,10,0,15" >
         <StackPanel Margin="25,40,23,15" >
             <TextBlock Text="唯一制作人/维护 ： 仕洋不是羊" FontWeight="Bold" Foreground="#25D2F5" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
-            <TextBlock Text="最后更新 ：2023/7/28" FontWeight="Bold" Foreground="#25D2F5" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
-            <TextBlock Text="更新版本 ：1.1.1" FontWeight="Bold" Foreground="#25D2F5" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
+            <TextBlock Text="最后更新 ：2023/8/8" FontWeight="Bold" Foreground="#25D2F5" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
+            <TextBlock Text="更新版本 ：1.2.0" FontWeight="Bold" Foreground="#25D2F5" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
             <TextBlock Text="更新日志 ：" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
             <TextBlock Text="新增自定义主页的教学 " FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
-            <TextBlock Text="增加画画功能" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
+            <TextBlock Text="小功能" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
+            <TextBlock Text="学习专区" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
+            <TextBlock Text="上方词条" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
             <local:MyHint IsWarn="False" Text="仕洋会抓紧更新的！" />
         </StackPanel>
+
+
+
 </local:MyCard>
 <local:MyCard Title="快捷区" CanSwap="False" IsSwaped="False" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15" >
@@ -48,10 +109,32 @@
    </StackPanel>
 </local:MyCard>
 <local:MyCard Title="小功能" CanSwap="True" IsSwaped="True" Margin="0,0,0,15" >
-    <StackPanel Margin="25,40,23,15" >
-        <local:MyHint IsWarn="True" Text="此功能测试中！" />
+     <StackPanel Margin="25,40,23,15" >
+                <local:MyHint Text="仅供娱乐，切勿上火！"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                     <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="0,4,10,0" Height="35" Padding="13,0,13,0" ColorType="Highlight"
+                                Text="今日人品" EventType="今日人品" />
+                     <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="8,4,10,0"  Height="35" Padding="13,0,13,0" ColorType="Red"
+                                Text="复制惊喜" EventType="复制文本" EventData="/execute as @a at @s run summon Creeper ~ ~2 ~" ToolTip="会在你的好基友头上召唤两只可爱的苦力怕怕哦！"/>
+               </StackPanel>
+               <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="0,4,10,0" Height="35"  Padding="13,0,13,0" ColorType="Highlight"
+                         Text="清理垃圾" EventType="清理垃圾"/>
 
-    </StackPanel>
+                    <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="8,4,10,0" Height="35" Padding="13,0,13,0"
+                         Text="下载8K色图" EventType="打开网页" EventData="https://www.bilibili.com/video/BV1VU4y1L7x7/"/>
+               </StackPanel>
+               <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="0,4,10,0" Height="35" Padding="13,0,13,0" ColorType="Red"
+                         Text="千万别点" EventType="刷新主页"  />
+                    <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="8,4,10,0" Height="35" Padding="13,0,13,0" ColorType="Red"
+                         Text="魔镜"  EventType="弹出窗口" EventData="哦!我的主人|你可真是 : !@#$%%$@#%^&#xA;(语言指导 ：赵德柱)"/>
+               </StackPanel>
+               <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <local:MyButton Width="340"  HorizontalAlignment="Center" Margin="0,4,10,0" Height="35" Padding="13,0,13,0" ColorType="Red"
+                    Text="撅仕洋"  EventType="弹出窗口" EventData="仕洋被撅|仕洋：是你的话，被撅也没有关系哦...撅烂了也没有关系哦..."/>
+              </StackPanel>
+       </StackPanel>
 </local:MyCard>
 <local:MyCard Title="日历" Margin="0,0,0,15" CanSwap="True" IsSwaped="True" Grid.Column="1">
             <Grid UseLayoutRounding="True">
@@ -71,6 +154,63 @@
                 </InkCanvas>
             </Grid>
 </local:MyCard>
+<local:MyCard Title="学习专区" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15" >
+        <local:MyHint Text="好好学习，天天向上！" Margin="0,0,0,8" IsWarn="False" />
+             <local:MyListItem Margin="-5,0,-5,8" Logo="https://www.baidu.com/favicon.ico"
+             Title="百度" Info="百度官网" EventType="打开网页" EventData="https://www.baidu.com/" Type="Clickable"/>
+             <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="20" Text="蜀道难   唐/李白" />
+             <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+             Text="      噫吁嚱，危乎高哉！蜀道之难，难于上青天！蚕丛及鱼凫，开国何茫然！尔来四万八千岁，不与秦塞通人烟。西当太白有鸟道，可以横绝峨眉巅。地崩山摧壮士死，然后天梯石栈相钩连。上有六龙回日之高标，下有冲波逆折之回川。黄鹤之飞尚不得过，猿猱欲度愁攀援。青泥何盘盘，百步九折萦岩峦。扪参历井仰胁息，以手抚膺坐长叹。
+                        问君西游何时还？畏途巉岩不可攀。但见悲鸟号古木，雄飞雌从绕林间。又闻子规啼夜月，愁空山。蜀道之难，难于上青天，使人听此凋朱颜！连峰去天不盈尺，枯松倒挂倚绝壁。飞湍瀑流争喧豗，砯崖转石万壑雷。其险也如此，嗟尔远道之人胡为乎来哉！
+                        剑阁峥嵘而崔嵬，一夫当关，万夫莫开。所守或匪亲，化为狼与豺。朝避猛虎，夕避长蛇；磨牙吮血，杀人如麻。锦城虽云乐，不如早还家。蜀道之难，难于上青天，侧身西望长咨嗟！" />
+             <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="0,4,10,8" Height="35" Padding="13,0,13,0" ColorType="Highlight"
+             Text="本篇解析" EventType="打开网页" EventData="https://m.shicimingju.com/chaxun/list/26317.html"/>
+
+             <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="20" Text="桃花源记   东晋/陶渊明" />
+             <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+             Text="      晋太元中，武陵人捕鱼为业。缘溪行，忘路之远近。忽逢桃花林，夹岸数百步，中无杂树，芳草鲜美，落英缤纷。渔人甚异之，复前行，欲穷其林。
+
+                   林尽水源，便得一山，山有小口，仿佛若有光。便舍船，从口入。初极狭，才通人。复行数十步，豁然开朗。土地平旷，屋舍俨然，有良田、美池、桑竹之属。阡陌交通，鸡犬相闻。其中往来种作，男女衣着，悉如外人。黄发垂髫，并怡然自乐。
+
+                   见渔人，乃大惊，问所从来。具答之。便要还家，设酒杀鸡作食。村中闻有此人，咸来问讯。自云先世避秦时乱，率妻子邑人来此绝境，不复出焉，遂与外人间隔。问今是何世，乃不知有汉，无论魏晋。此人一一为具言所闻，皆叹惋。余人各复延至其家，皆出酒食。停数日，辞去。此中人语云：“不足为外人道也。”
+
+                   既出，得其船，便扶向路，处处志之。及郡下，诣太守，说如此。太守即遣人随其往，寻向所志，遂迷，不复得路。
+
+                   南阳刘子骥，高尚士也，闻之，欣然规往。未果，寻病终，后遂无问津者。" />
+             <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="0,4,10,8" Height="35" Padding="13,0,13,0" ColorType="Highlight"
+             Text="本篇解析" EventType="打开网页" EventData="https://so.gushiwen.cn/shangxi_2178.aspx"/>
+
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="20" Text="将进酒   唐/李白" />
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+                         Text="君不见，黄河之水天上来，奔流到海不复回。
+
+                                     君不见，高堂明镜悲白发，朝如青丝暮成雪。
+
+                                     人生得意须尽欢，莫使金樽空对月。
+
+                                     天生我材必有用，千金散尽还复来。
+
+                                     烹羊宰牛且为乐，会须一饮三百杯。
+
+                                     岑夫子，丹丘生，将进酒，杯莫停。
+
+                                     与君歌一曲，请君为我倾耳听。
+
+                                     钟鼓馔玉不足贵，但愿长醉不愿醒。
+
+                                     古来圣贤皆寂寞，惟有饮者留其名。
+
+                                     陈王昔时宴平乐，斗酒十千恣欢谑。
+
+                                     主人何为言少钱，径须沽取对君酌。
+
+                                     五花马，千金裘，呼儿将出换美酒，与尔同销万古愁。" />
+            <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="0,4,10,8" Height="35" Padding="13,0,13,0" ColorType="Highlight"
+                         Text="本篇解析" EventType="打开网页" EventData="https://so.gushiwen.cn/shangxi_1217.aspx"/>
+    </StackPanel>
+</local:MyCard>
+
 <!-- 
 
 全部通用的属性：

@@ -43,6 +43,8 @@
                     EventType="打开网页" EventData="https://store.steampowered.com/" Type="Clickable"/>
                 <local:MyListItem Margin="-5,0,-5,8" Logo="https://www.bilibili.com/favicon.ico?v=1" Title="仕洋B站主页" Info="仕洋B站主页"
                                 EventType="打开网页" EventData="https://space.bilibili.com/1151723944" Type="Clickable"/>
+                <local:MyListItem Margin="-5,0,-5,8" Logo="https://gitee.com/static/images/logo-black.svg?t=158106664" Title="自定义主页教学" Info="仕洋编写"
+                                EventType="打开网页" EventData="https://gitee.com/csy0519/pcl2-GK-SY/blob/main/README.md" Type="Clickable"/>
    </StackPanel>
 </local:MyCard>
 <local:MyCard Title="小功能" CanSwap="True" IsSwaped="True" Margin="0,0,0,15" >

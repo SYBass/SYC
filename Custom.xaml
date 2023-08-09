@@ -10,31 +10,30 @@
 	<EventTrigger RoutedEvent="StackPanel.Loaded" >
 		<BeginStoryboard>
 			<Storyboard x:Name="animation" RepeatBehavior="Forever" >
-				<ColorAnimation BeginTime="0:0:5"
-					Storyboard.TargetName="Text1"
-					Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"
-					From="#8D724C" To="#00000000" Duration="0:0:1"/>
-				<ColorAnimation BeginTime="0:0:16"
-					Storyboard.TargetName="Text1"
-					Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"
-					From="#00000000" To="#8D724C" Duration="0:0:1"/>
 				<ColorAnimation BeginTime="0:0:6"
+					Storyboard.TargetName="Text1"
+					Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"
+					From="#8D724C" To="#00000000" Duration="0:0:1"/>
+				<ColorAnimation BeginTime="0:0:17"
+					Storyboard.TargetName="Text1"
+					Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"
+					From="#00000000" To="#8D724C" Duration="0:0:1"/>
+				<ColorAnimation BeginTime="0:0:7"
 					Storyboard.TargetName="Text2"
 					Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"
 					From="#00000000" To="#8D724C" Duration="0:0:1"/>
-				<ColorAnimation BeginTime="0:0:10"
-					Storyboard.TargetName="Text2"
-					Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"
-					From="#8D724C" To="#00000000" Duration="0:0:1"/>
 				<ColorAnimation BeginTime="0:0:11"
+					Storyboard.TargetName="Text2"
+					Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"
+					From="#8D724C" To="#00000000" Duration="0:0:1"/>
+				<ColorAnimation BeginTime="0:0:12"
 					Storyboard.TargetName="Text3"
 					Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"
 					From="#00000000" To="#8D724C" Duration="0:0:1"/>
-				<ColorAnimation BeginTime="0:0:15"
+				<ColorAnimation BeginTime="0:0:16"
 					Storyboard.TargetName="Text3"
 					Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"
 					From="#8D724C" To="#00000000" Duration="0:0:1"/>
-
 			</Storyboard>
 		</BeginStoryboard>
 	</EventTrigger>
@@ -47,9 +46,12 @@
 	    <TextBlock x:Name="Text2" HorizontalAlignment="Left" Text="『天生我材必有用，千金散尽还复来。』"   FontSize="13" Style="{StaticResource Text}" Foreground="#00000000"  Margin="12,12">
 
 	    </TextBlock>
-	    <TextBlock x:Name="Text3" HorizontalAlignment="Left" Text=" 2023/8/8 更新 版本1.3.0 " Style="{StaticResource Text}"    FontSize="13" Foreground="#00000000"  Margin="12,12">
+	    <TextBlock x:Name="Text3" HorizontalAlignment="Left" Text=" 2023/8/9 更新 版本1.3.3 " Style="{StaticResource Text}"    FontSize="13" Foreground="#00000000"  Margin="12,12">
 
 	    </TextBlock>
+
+
+
 
 	        <Border Background="{DynamicResource ColorBrush6}" BorderBrush="{DynamicResource ColorBrush5}"
             		BorderThickness="2" HorizontalAlignment="Right" CornerRadius="3" Margin="5,5" Width="175" Height="25"/>
@@ -118,7 +120,144 @@
 
 
 
-<local:MyCard Title="更新说明" CanSwap="True"  IsSwaped="True" Height="35" Margin="0,10,0,15" >
+
+
+
+<Grid UseLayoutRounding="True">
+	<Grid.RowDefinitions>
+		<RowDefinition></RowDefinition>
+	</Grid.RowDefinitions>
+	<Grid.ColumnDefinitions>
+		<ColumnDefinition Width="12*"></ColumnDefinition>
+		<ColumnDefinition Width="0.5*"></ColumnDefinition>
+		<ColumnDefinition Width="9*"></ColumnDefinition>
+	</Grid.ColumnDefinitions>
+	<GridSplitter Grid.Column="1" Width="5" Margin="0,0,0,20" Opacity="0"
+		VerticalAlignment="Stretch" HorizontalAlignment="Center"/>
+<local:MyCard Title="  💖"  Margin="0,10,0,15" Grid.Row="0" Grid.Column="3" CanSwap="True" >
+		<StackPanel Margin="25,40,23,15" Grid.Row="0" Grid.Column="3">
+			<TextBlock Margin="0,0,0,3" Foreground="{DynamicResource ColorBrush5}" HorizontalAlignment="Center"
+				Text=""/>
+        <TextBlock Text="有的人活着" HorizontalAlignment="Center" Foreground="{DynamicResource ColorBrush4}" FontSize="16">
+            <TextBlock.Style>
+                <Style TargetType="TextBlock">
+                    <Style.Triggers>
+                            <EventTrigger RoutedEvent="MouseEnter">
+                                <EventTrigger.Actions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="20" />
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger.Actions>
+                            </EventTrigger>
+                            <EventTrigger RoutedEvent="MouseLeave">
+                                <EventTrigger.Actions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="16" />
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger.Actions>
+                            </EventTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBlock.Style>
+        </TextBlock>
+			<TextBlock Margin="0,0,0,3" Foreground="{DynamicResource ColorBrush5}" HorizontalAlignment="Center"
+				Text=""/>
+        <TextBlock Text="他已经死了" HorizontalAlignment="Center" Opacity="0.85" Foreground="{DynamicResource ColorBrush4}" FontSize="16">
+            <TextBlock.Style>
+                <Style TargetType="TextBlock">
+                    <Style.Triggers>
+                            <EventTrigger RoutedEvent="MouseEnter">
+                                <EventTrigger.Actions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="20" />
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger.Actions>
+                            </EventTrigger>
+                            <EventTrigger RoutedEvent="MouseLeave">
+                                <EventTrigger.Actions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="16" />
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger.Actions>
+                            </EventTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBlock.Style>
+        </TextBlock>
+        
+			<TextBlock  Opacity="0.9" Margin="0,0,0,3" Foreground="{DynamicResource ColorBrush5}" HorizontalAlignment="Center" FontSize="16"
+				Text=""/>
+        <TextBlock Text="有的人死了" HorizontalAlignment="Center" Opacity="0.70" Foreground="{DynamicResource ColorBrush4}" FontSize="16">
+            <TextBlock.Style>
+                <Style TargetType="TextBlock">
+                    <Style.Triggers>
+                            <EventTrigger RoutedEvent="MouseEnter">
+                                <EventTrigger.Actions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="20" />
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger.Actions>
+                            </EventTrigger>
+                            <EventTrigger RoutedEvent="MouseLeave">
+                                <EventTrigger.Actions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="16" />
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger.Actions>
+                            </EventTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBlock.Style>
+        </TextBlock>
+
+			<TextBlock Margin="0,0,0,3" Foreground="{DynamicResource ColorBrush5}" HorizontalAlignment="Center"
+				Text=""/>
+        <TextBlock Text="但他还活着" HorizontalAlignment="Center" Opacity="0.60" Foreground="{DynamicResource ColorBrush4}" FontSize="16">
+            <TextBlock.Style>
+                <Style TargetType="TextBlock">
+                    <Style.Triggers>
+                            <EventTrigger RoutedEvent="MouseEnter">
+                                <EventTrigger.Actions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="20" />
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger.Actions>
+                            </EventTrigger>
+                            <EventTrigger RoutedEvent="MouseLeave">
+                                <EventTrigger.Actions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="16" />
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger.Actions>
+                            </EventTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBlock.Style>
+        </TextBlock>
+			<TextBlock Margin="0,0,0,3" Foreground="{DynamicResource ColorBrush5}" HorizontalAlignment="Center"
+				Text=""/>
+			<TextBlock  Opacity="0.5" Margin="0,0,0,3" Foreground="{DynamicResource ColorBrush4}" HorizontalAlignment="Right" FontStyle="Italic" FontSize="14"
+				Text="——臧克家《有的人》"/>
+		</StackPanel>
+	</local:MyCard>
+
+<local:MyCard Title="更新说明" CanSwap="False"  IsSwaped="False"  Margin="0,10,0,15" >
 
 
  <StackPanel Margin="25,40,23,15">
@@ -153,7 +292,8 @@
 	            </Grid.ColumnDefinitions>
 	            <GridSplitter Grid.Column="1" Width="5" Margin="0,0,0,20" Opacity="0"
 		            VerticalAlignment="Stretch" HorizontalAlignment="Center"/>
-                <TextBlock Margin="1,4.5,0,0" Grid.Column="1" Text=" 作者QQ:2473573684（有什么问题找我或者发邮箱）"/>
+                <TextBlock Margin="1,4.5,0,0" Grid.Column="1" Text=" 作者QQ:2473573684"/>
+
                 <local:MyTextButton Grid.Column="0" Margin="0,3,0,0" EventType="复制文本" EventData="2473573684@qq.com" Width="19" Height="20" ToolTip="点击复制"/>
         		    <Path Fill="{DynamicResource ColorBrush5}" Stretch="Fill" Width="18" Height="18">
 			    <Path.Data>
@@ -162,14 +302,24 @@
 		    </Path>
 
 		  </Grid>
+		  <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                     <TextBlock  Text=" （有什么问题找我或者发邮箱）"/>
+           </StackPanel>
 		  <TextBlock Text="更新日志 ：" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
-                      <TextBlock Text="新增便捷条 " FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
-                      <TextBlock Text="小功能更新" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
-                      <TextBlock Text="词条更新" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
-                      <TextBlock Text="名人名言更新" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
+                      <TextBlock Text="更新学习专区 " FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
+                      <TextBlock Text="删除《蕨仕洋》按钮" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
+                      <TextBlock Text="测试新闻主页" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
+                      <TextBlock Text="" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
                       <local:MyHint IsWarn="False" Text="仕洋会抓紧更新的！" />
 </StackPanel>
 </local:MyCard>
+
+
+
+</Grid>
+
+<local:MyCard Title="网站" CanSwap="True" IsSwaped="True" Margin="0,0,0,15">
+        <StackPanel Margin="25,40,23,15" >
 
 
 <Grid UseLayoutRounding="True">
@@ -179,170 +329,58 @@
 	<Grid.ColumnDefinitions>
 		<ColumnDefinition Width="12*"></ColumnDefinition>
 		<ColumnDefinition Width="0.5*"></ColumnDefinition>
-		<ColumnDefinition Width="9*"></ColumnDefinition>
+		<ColumnDefinition Width="12*"></ColumnDefinition>
 	</Grid.ColumnDefinitions>
-	<GridSplitter Grid.Column="1" Width="5" Margin="0,0,0,20" Opacity="0"
-		VerticalAlignment="Stretch" HorizontalAlignment="Center"/>
-<local:MyCard Title="  💖" Margin="0,0,0,15" Grid.Row="0" Grid.Column="3" CanSwap="True" Height="260">
-		<StackPanel Margin="25,40,23,15" Grid.Row="0" Grid.Column="3">
-			<TextBlock Margin="0,0,0,3" Foreground="{DynamicResource ColorBrush5}" HorizontalAlignment="Center"
-				Text=""/>
-        <TextBlock Text="有的人活着" HorizontalAlignment="Center" Foreground="{DynamicResource ColorBrush5}" FontSize="16">
-            <TextBlock.Style>
-                <Style TargetType="TextBlock">
-                    <Style.Triggers>
-                            <EventTrigger RoutedEvent="MouseEnter">
-                                <EventTrigger.Actions>
-                                    <BeginStoryboard>
-                                        <Storyboard>
-                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="20" />
-                                        </Storyboard>
-                                    </BeginStoryboard>
-                                </EventTrigger.Actions>
-                            </EventTrigger>
-                            <EventTrigger RoutedEvent="MouseLeave">
-                                <EventTrigger.Actions>
-                                    <BeginStoryboard>
-                                        <Storyboard>
-                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="16" />
-                                        </Storyboard>
-                                    </BeginStoryboard>
-                                </EventTrigger.Actions>
-                            </EventTrigger>
-                    </Style.Triggers>
-                </Style>
-            </TextBlock.Style>
-        </TextBlock>
-			<TextBlock Margin="0,0,0,3" Foreground="{DynamicResource ColorBrush5}" HorizontalAlignment="Center"
-				Text=""/>
-        <TextBlock Text="他已经死了" HorizontalAlignment="Center" Opacity="0.85" Foreground="{DynamicResource ColorBrush5}" FontSize="16">
-            <TextBlock.Style>
-                <Style TargetType="TextBlock">
-                    <Style.Triggers>
-                            <EventTrigger RoutedEvent="MouseEnter">
-                                <EventTrigger.Actions>
-                                    <BeginStoryboard>
-                                        <Storyboard>
-                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="20" />
-                                        </Storyboard>
-                                    </BeginStoryboard>
-                                </EventTrigger.Actions>
-                            </EventTrigger>
-                            <EventTrigger RoutedEvent="MouseLeave">
-                                <EventTrigger.Actions>
-                                    <BeginStoryboard>
-                                        <Storyboard>
-                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="16" />
-                                        </Storyboard>
-                                    </BeginStoryboard>
-                                </EventTrigger.Actions>
-                            </EventTrigger>
-                    </Style.Triggers>
-                </Style>
-            </TextBlock.Style>
-        </TextBlock>
-			<TextBlock  Opacity="0.9" Margin="0,0,0,3" Foreground="{DynamicResource ColorBrush5}" HorizontalAlignment="Center" FontSize="16"
-				Text=""/>
-        <TextBlock Text="有的人死了" HorizontalAlignment="Center" Opacity="0.70" Foreground="{DynamicResource ColorBrush5}" FontSize="16">
-            <TextBlock.Style>
-                <Style TargetType="TextBlock">
-                    <Style.Triggers>
-                            <EventTrigger RoutedEvent="MouseEnter">
-                                <EventTrigger.Actions>
-                                    <BeginStoryboard>
-                                        <Storyboard>
-                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="20" />
-                                        </Storyboard>
-                                    </BeginStoryboard>
-                                </EventTrigger.Actions>
-                            </EventTrigger>
-                            <EventTrigger RoutedEvent="MouseLeave">
-                                <EventTrigger.Actions>
-                                    <BeginStoryboard>
-                                        <Storyboard>
-                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="16" />
-                                        </Storyboard>
-                                    </BeginStoryboard>
-                                </EventTrigger.Actions>
-                            </EventTrigger>
-                    </Style.Triggers>
-                </Style>
-            </TextBlock.Style>
-        </TextBlock>
-
-			<TextBlock Margin="0,0,0,3" Foreground="{DynamicResource ColorBrush5}" HorizontalAlignment="Center"
-				Text=""/>
-        <TextBlock Text="但他还活着" HorizontalAlignment="Center" Opacity="0.60" Foreground="{DynamicResource ColorBrush5}" FontSize="16">
-            <TextBlock.Style>
-                <Style TargetType="TextBlock">
-                    <Style.Triggers>
-                            <EventTrigger RoutedEvent="MouseEnter">
-                                <EventTrigger.Actions>
-                                    <BeginStoryboard>
-                                        <Storyboard>
-                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="20" />
-                                        </Storyboard>
-                                    </BeginStoryboard>
-                                </EventTrigger.Actions>
-                            </EventTrigger>
-                            <EventTrigger RoutedEvent="MouseLeave">
-                                <EventTrigger.Actions>
-                                    <BeginStoryboard>
-                                        <Storyboard>
-                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="16" />
-                                        </Storyboard>
-                                    </BeginStoryboard>
-                                </EventTrigger.Actions>
-                            </EventTrigger>
-                    </Style.Triggers>
-                </Style>
-            </TextBlock.Style>
-        </TextBlock>
-			<TextBlock Margin="0,0,0,3" Foreground="{DynamicResource ColorBrush5}" HorizontalAlignment="Center"
-				Text=""/>
-			<TextBlock  Opacity="0.5" Margin="0,0,0,3" Foreground="{DynamicResource ColorBrush5}" HorizontalAlignment="Right" FontStyle="Italic" FontSize="14"
-				Text="——臧克家《有的人》"/>
-		</StackPanel>
-	</local:MyCard>
-
-<local:MyCard Title="日历" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
-            <Grid UseLayoutRounding="True">
-                <Grid.RowDefinitions>
-                    <RowDefinition></RowDefinition>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="215"></ColumnDefinition>
-                    <ColumnDefinition Width="5"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                </Grid.ColumnDefinitions>
-                <GridSplitter Grid.Column="1" Width="5" Margin="0,0,0,20" Opacity="0"
-                    VerticalAlignment="Stretch" HorizontalAlignment="Center"/>
-                <Calendar  HorizontalAlignment="Left" Margin="16,30,0,10" Grid.Row="0" Grid.Column="0"></Calendar>
-                <InkCanvas EditingMode="Ink" HorizontalAlignment="Right" Margin="0,30,15,10" Grid.Row="0" Grid.Column="2"
-                    Width="1024" MaxHeight="768" MinHeight="100" Background="{DynamicResource ColorBrush5}">
-                </InkCanvas>
-            </Grid>
-</local:MyCard>
+                    <local:MyListItem Margin="-5,0,-5,8" Logo="pack://application:,,,/images/Blocks/Grass.png" Title="我的世界" Info="我的世界官网"
+                                    EventType="打开网页" EventData="https://www.minecraft.net/zh-hans" Type="Clickable" />
+                    <local:MyListItem Margin="0,0,-5,8" Logo="https://www.mcbbs.net/template/mcbbs/image/logo_sc.png" Title="MCBBS" Info="我的世界中文论坛"
+                    EventType="打开网页" EventData="https://www.mcbbs.net/" Type="Clickable" Grid.Column="3"/>
 </Grid>
-
-<local:MyCard Title="网站" CanSwap="True" IsSwaped="True" Margin="0,0,0,15">
-        <StackPanel Margin="25,40,23,15" >
-                <local:MyListItem Margin="-5,0,-5,8" Logo="pack://application:,,,/images/Blocks/Grass.png" Title="我的世界" Info="我的世界官网"
-                                EventType="打开网页" EventData="https://www.minecraft.net/zh-hans" Type="Clickable"/>
-                <local:MyListItem Margin="-5,0,-5,8" Logo="https://www.mcbbs.net/template/mcbbs/image/logo_sc.png" Title="MCBBS" Info="我的世界中文论坛"
-                EventType="打开网页" EventData="https://www.mcbbs.net/" Type="Clickable"/>
+<Grid UseLayoutRounding="True">
+	<Grid.RowDefinitions>
+		<RowDefinition></RowDefinition>
+	</Grid.RowDefinitions>
+	<Grid.ColumnDefinitions>
+		<ColumnDefinition Width="12*"></ColumnDefinition>
+		<ColumnDefinition Width="0.5*"></ColumnDefinition>
+		<ColumnDefinition Width="12*"></ColumnDefinition>
+	</Grid.ColumnDefinitions>
                 <local:MyListItem Margin="-5,0,-5,8" Logo="https://www.mcmod.cn/static/public/images/favicon.ico" Title="MCMOD" Info="mod百科"
                                 EventType="打开网页" EventData="https://www.mcmod.cn/" Type="Clickable"/>
-                <local:MyListItem Margin="-5,0,-5,8" Logo="https://www.bilibili.com/favicon.ico?v=1" Title="哔哩哔哩" Info="哔哩哔哩官网"
-                             EventType="打开网页" EventData="https://www.bilibili.com/" Type="Clickable"/>
+                <local:MyListItem Margin="0,0,-5,8" Logo="https://www.bilibili.com/favicon.ico?v=1" Title="哔哩哔哩" Info="哔哩哔哩官网"
+                             EventType="打开网页" EventData="https://www.bilibili.com/" Type="Clickable" Grid.Column="3"/>
+</Grid>
+<Grid UseLayoutRounding="True">
+	<Grid.RowDefinitions>
+		<RowDefinition></RowDefinition>
+	</Grid.RowDefinitions>
+	<Grid.ColumnDefinitions>
+		<ColumnDefinition Width="12*"></ColumnDefinition>
+		<ColumnDefinition Width="0.5*"></ColumnDefinition>
+		<ColumnDefinition Width="12*"></ColumnDefinition>
+	</Grid.ColumnDefinitions>
                 <local:MyListItem Margin="-5,0,-5,8" Logo="https://www.baidu.com/favicon.ico"
                              Title="百度" Info="百度官网" EventType="打开网页" EventData="https://www.baidu.com/" Type="Clickable"/>
-                <local:MyListItem Margin="-5,0,-5,8" Logo="https://store.steampowered.com/favicon.ico" Title="Steam" Info="Steam官网"
-                    EventType="打开网页" EventData="https://store.steampowered.com/" Type="Clickable"/>
+                <local:MyListItem Margin="0,0,-5,8" Logo="https://store.steampowered.com/favicon.ico" Title="Steam" Info="Steam官网"
+                    EventType="打开网页" EventData="https://store.steampowered.com/" Type="Clickable" Grid.Column="3"/>
+</Grid>
+<Grid UseLayoutRounding="True">
+	<Grid.RowDefinitions>
+		<RowDefinition></RowDefinition>
+	</Grid.RowDefinitions>
+	<Grid.ColumnDefinitions>
+		<ColumnDefinition Width="12*"></ColumnDefinition>
+		<ColumnDefinition Width="0.5*"></ColumnDefinition>
+		<ColumnDefinition Width="12*"></ColumnDefinition>
+	</Grid.ColumnDefinitions>
                 <local:MyListItem Margin="-5,0,-5,8" Logo="https://www.bilibili.com/favicon.ico?v=1" Title="仕洋B站主页" Info="仕洋B站主页"
                                 EventType="打开网页" EventData="https://space.bilibili.com/1151723944" Type="Clickable"/>
-                <local:MyListItem Margin="-5,0,-5,8" Logo="https://gitee.com/static/images/logo-black.svg?t=158106664" Title="自定义主页教学" Info="仕洋编写"
-                                EventType="打开网页" EventData="https://gitee.com/csy0519/pcl2-GK-SY/blob/main/README.md" Type="Clickable"/>
+                <local:MyListItem Margin="0,0,-5,8" Logo="https://gitee.com/static/images/logo-black.svg?t=158106664" Title="自定义主页教学" Info="仕洋编写"
+                                EventType="打开网页" EventData="https://gitee.com/csy0519/pcl2-GK-SY/blob/main/README.md" Type="Clickable" Grid.Column="3"/>
+</Grid>
+
+<local:MyButton Margin="0,0,0,8" Text="新闻主页" ToolTip="最亮的信标编写" Height="35" HorizontalAlignment="Center" Width="260" EventType="打开帮助" EventData="https://news.bugjump.net/News.json" />
+<local:MyHint Text="此功能测试中！(指新闻主页)"/>
        </StackPanel>
 </local:MyCard>
 
@@ -370,10 +408,7 @@
                     <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="8,4,10,0" Height="35" Padding="13,0,13,0" ColorType="Red"
                          Text="魔镜"  EventType="弹出窗口" EventData="哦!我的主人|你可真是 : !@#$%%$@#%^&#xA;(语言指导 ：赵德柱)"/>
                </StackPanel>
-               <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                    <local:MyButton Width="340"  HorizontalAlignment="Center" Margin="0,4,10,0" Height="35" Padding="13,0,13,0" ColorType="Red"
-                    Text="撅仕洋"  EventType="弹出窗口" EventData="仕洋被撅|仕洋：是你的话，被撅也没有关系哦...撅烂了也没有关系哦..."/>
-              </StackPanel>
+
 
 
                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
@@ -388,6 +423,39 @@
                    <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="0,4,10,0" Height="35" Padding="13,0,13,0" ColorType="Red" Text="进入仕洋team爱发电" EventType="打开网页" EventData="https://afdian.net/a/sy0519"/>
                    <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="8,4,10,0" Height="35" Padding="13,0,13,0" ColorType="Highlight" Text="仕洋team官网" EventType="打开网页" EventData="" />
                </StackPanel>
+               <Grid UseLayoutRounding="True">
+                               <Grid.RowDefinitions>
+                                   <RowDefinition></RowDefinition>
+                               </Grid.RowDefinitions>
+                               <Grid.ColumnDefinitions>
+                                   <ColumnDefinition Width="215"></ColumnDefinition>
+                                   <ColumnDefinition Width="5"></ColumnDefinition>
+                                   <ColumnDefinition Width="*"></ColumnDefinition>
+                               </Grid.ColumnDefinitions>
+                               <GridSplitter Grid.Column="1" Width="5" Margin="0,0,0,20" Opacity="0"
+                                   VerticalAlignment="Stretch" HorizontalAlignment="Center"/>
+                               <Calendar  HorizontalAlignment="Left" Margin="16,30,0,10" Grid.Row="0" Grid.Column="0"></Calendar>
+                               <InkCanvas EditingMode="Ink" HorizontalAlignment="Right" Margin="0,30,15,10" Grid.Row="0" Grid.Column="2"
+                                   Width="1024" MaxHeight="768" MinHeight="100" Background="{DynamicResource ColorBrush5}">
+                               </InkCanvas>
+                           </Grid>
+
+
+
+
+        <local:MyHint IsWarn="True" Text="链接必须为以http://或https://开头的网址，部分网址可能无法下载（如百度网盘）" />
+
+        <StackPanel Orientation="Horizontal" Height="50" Width="800">
+
+            <TextBlock Text="下载链接：" VerticalAlignment="Center" />
+
+            <local:MyTextBox Margin="3" Name="web" Height="30" Width="380" />
+
+            <local:MyButton EventType="下载文件" EventData="{Binding ElementName=web,Path=Text}" Text="开始下载" Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"/>
+
+        </StackPanel>
+
+
      </StackPanel>
 </local:MyCard>
 
@@ -396,6 +464,14 @@
         <local:MyHint Text="好好学习，天天向上！" Margin="0,0,0,8" IsWarn="False" />
              <local:MyListItem Margin="-5,0,-5,8" Logo="https://www.baidu.com/favicon.ico"
              Title="百度" Info="百度官网" EventType="打开网页" EventData="https://www.baidu.com/" Type="Clickable"/>
+
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="20" Text="满江红   宋/岳飞" />
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+                         Text="　　怒发冲冠，凭阑处、潇潇雨歇。抬望眼，仰天长啸，壮怀激烈。三十功名尘与土，八千里路云和月。莫等闲，白了少年头，空悲切。
+                               　　靖康耻，犹未雪；臣子恨，何时灭？驾长车，踏破贺兰山缺。壮志饥餐胡虏肉，笑谈渴饮匈奴血。待从头，收拾旧山河，朝天阙。" />
+            <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="0,4,10,8" Height="35" Padding="13,0,13,0" ColorType="Highlight"
+                         Text="本篇解析" EventType="打开网页" EventData="https://www.gushiwen.cn/GuShiWen_1095efc612.aspx"/>
+
              <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="20" Text="蜀道难   唐/李白" />
              <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
              Text="      噫吁嚱，危乎高哉！蜀道之难，难于上青天！蚕丛及鱼凫，开国何茫然！尔来四万八千岁，不与秦塞通人烟。西当太白有鸟道，可以横绝峨眉巅。地崩山摧壮士死，然后天梯石栈相钩连。上有六龙回日之高标，下有冲波逆折之回川。黄鹤之飞尚不得过，猿猱欲度愁攀援。青泥何盘盘，百步九折萦岩峦。扪参历井仰胁息，以手抚膺坐长叹。
@@ -445,6 +521,66 @@
                                      五花马，千金裘，呼儿将出换美酒，与尔同销万古愁。" />
             <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="0,4,10,8" Height="35" Padding="13,0,13,0" ColorType="Highlight"
                          Text="本篇解析" EventType="打开网页" EventData="https://so.gushiwen.cn/shangxi_1217.aspx"/>
+
+
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="20" Text="木兰辞   南北朝/佚名" />
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+                         Text="唧唧复唧唧，木兰当户织。不闻机杼声，唯闻女叹息。
+
+                               问女何所思，问女何所忆。女亦无所思，女亦无所忆。昨夜见军帖，可汗大点兵，军书十二卷，卷卷有爷名。阿爷无大儿，木兰无长兄，愿为市鞍马，从此替爷征。
+
+                               东市买骏马，西市买鞍鞯，南市买辔头，北市买长鞭。旦辞爷娘去，暮宿黄河边，不闻爷娘唤女声，但闻黄河流水鸣溅溅。旦辞黄河去，暮至黑山头，不闻爷娘唤女声，但闻燕山胡骑鸣啾啾。
+
+                               万里赴戎机，关山度若飞。朔气传金柝，寒光照铁衣。将军百战死，壮士十年归。
+
+                               归来见天子，天子坐明堂。策勋十二转，赏赐百千强。可汗问所欲，木兰不用尚书郎，愿驰千里足，送儿还故乡。
+
+                               爷娘闻女来，出郭相扶将；阿姊闻妹来，当户理红妆；小弟闻姊来，磨刀霍霍向猪羊。开我东阁门，坐我西阁床，脱我战时袍，著我旧时裳。当窗理云鬓，对镜帖花黄。出门看火伴，火伴皆惊忙：同行十二年，不知木兰是女郎。
+
+                               雄兔脚扑朔，雌兔眼迷离；双兔傍地走，安能辨我是雄雌？" />
+            <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="0,4,10,8" Height="35" Padding="13,0,13,0" ColorType="Highlight"
+                         Text="本篇解析" EventType="打开网页" EventData="https://so.gushiwen.cn/shiwenv_2d6b0c83a500.aspx"/>
+
+
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="20" Text="有的人   现代/臧克家" />
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="#585858" Text="(纪念鲁迅逝世十三周年有感)" FontWeight="Bold"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="#585858"
+                         Text="有的人活着
+                               他已经死了；
+                               有的人死了
+                               他还活着。
+                               有的人
+                               骑在人民头上：“呵，我多伟大！”
+                               有的人
+                               俯下身子给人民当牛马。
+                               有的人
+                               把名字刻入石头，想“不朽”；
+                               有的人
+                               情愿作野草，等着地下的火烧。
+                               有的人
+                               他活着别人就不能活；
+                               有的人
+                               他活着为了多数人更好地活。
+                               骑在人民头上的
+                               人民把他摔垮；
+                               给人民作牛马的
+                               人民永远记住他！
+                               把名字刻入石头的
+                               名字比尸首烂得更早；
+                               只要春风吹到的地方
+                               到处是青青的野草。
+                               他活着别人就不能活的人，
+                               他的下场可以看到；
+                               他活着为了多数人更好地活着的人，
+                               群众把他抬举得很高，很高。" />
+            <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="0,4,10,8" Height="35" Padding="13,0,13,0" ColorType="Highlight"
+                         Text="本篇解析" EventType="打开网页" EventData="https://www.yuwenmi.com/lizhi/shige/550368.html"/>
+
+
+
+
+
+
     </StackPanel>
 </local:MyCard>
 

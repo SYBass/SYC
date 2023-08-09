@@ -46,7 +46,7 @@
 	    <TextBlock x:Name="Text2" HorizontalAlignment="Left" Text="『天生我材必有用，千金散尽还复来。』"   FontSize="13" Style="{StaticResource Text}" Foreground="#00000000"  Margin="12,12">
 
 	    </TextBlock>
-	    <TextBlock x:Name="Text3" HorizontalAlignment="Left" Text=" 2023/8/9 更新 版本1.3.3 " Style="{StaticResource Text}"    FontSize="13" Foreground="#00000000"  Margin="12,12">
+	    <TextBlock x:Name="Text3" HorizontalAlignment="Left" Text=" 2023/8/9 更新 版本1.3.4 " Style="{StaticResource Text}"    FontSize="13" Foreground="#00000000"  Margin="12,12">
 
 	    </TextBlock>
 
@@ -54,29 +54,29 @@
 
 
 	        <Border Background="{DynamicResource ColorBrush6}" BorderBrush="{DynamicResource ColorBrush5}"
-            		BorderThickness="2" HorizontalAlignment="Right" CornerRadius="3" Margin="5,5" Width="175" Height="25"/>
-                     <local:MyButton Margin="0,10,160,10" Width="15" Height="15" HorizontalAlignment="Right" ToolTip="刷新主页" EventType="刷新主页">
-                     		<Path Fill="{DynamicResource ColorBrush5}" Stretch="Fill" Width="13" Height="15">
+            		BorderThickness="2" HorizontalAlignment="Right" CornerRadius="3" Margin="5,5" Width="200" Height="25"/>
+                     <local:MyButton Margin="0,10,180,10" Width="15" Height="15" HorizontalAlignment="Right" ToolTip="刷新主页" EventType="刷新主页">
+                     		<Path Fill="{DynamicResource ColorBrush5}" Stretch="Fill" Width="15" Height="15">
                      			<Path.Data>
                      				<PathGeometry FillRule="Nonzero" Figures="M256.455,8C322.724,8.119,382.892,34.233,427.314,76.685L463.029,40.97C478.149,25.851,504,36.559,504,57.941L504,192C504,205.255,493.255,216,480,216L345.941,216C324.559,216,313.851,190.149,328.97,175.029L370.72,133.279C339.856,104.38 299.919,88.372 257.49,88.006 165.092,87.208 87.207,161.983 88.0059999999999,257.448 88.764,348.009 162.184,424 256,424 297.127,424 335.997,409.322 366.629,382.444 371.372,378.283 378.535,378.536 382.997,382.997L422.659,422.659C427.531,427.531 427.29,435.474 422.177,440.092 378.202,479.813 319.926,504 256,504 119.034,504 8.001,392.967 8,256.002 7.999,119.193 119.646,7.755 256.455,8z"/>
                      			</Path.Data>
                      		</Path>
                      	</local:MyButton>
-                     	<local:MyButton Margin="0,10,140,10" Width="15" Height="15" HorizontalAlignment="Right" ToolTip="爱你们！" EventType="弹出窗口" EventData="赠言|仕洋team爱你们呦！">
+                     	<local:MyButton Margin="0,10,160,10" Width="15" Height="15" HorizontalAlignment="Right" ToolTip="爱你们！" EventType="弹出窗口" EventData="赠言|仕洋team爱你们呦！">
                         		<Path Fill="{DynamicResource ColorBrush5}" Stretch="Fill" Width="10" Height="15">
                         			<Path.Data>
                         				<PathGeometry FillRule="Nonzero" Figures="M13.5,4A1.5,1.5 0 0,0 12,5.5A1.5,1.5 0 0,0 13.5,7A1.5,1.5 0 0,0 15,5.5A1.5,1.5 0 0,0 13.5,4M13.14,8.77C11.95,8.87 8.7,11.46 8.7,11.46C8.5,11.61 8.56,11.6 8.72,11.88C8.88,12.15 8.86,12.17 9.05,12.04C9.25,11.91 9.58,11.7 10.13,11.36C12.25,10 10.47,13.14 9.56,18.43C9.2,21.05 11.56,19.7 12.17,19.3C12.77,18.91 14.38,17.8 14.54,17.69C14.76,17.54 14.6,17.42 14.43,17.17C14.31,17 14.19,17.12 14.19,17.12C13.54,17.55 12.35,18.45 12.19,17.88C12,17.31 13.22,13.4 13.89,10.71C14,10.07 14.3,8.67 13.14,8.77Z"/>
                         			</Path.Data>
                         		</Path>
                         	</local:MyButton>
-                            	<local:MyButton Margin="0,10,120,10" Width="15" Height="15" HorizontalAlignment="Right" ToolTip="爱发电" EventType="打开网页" EventData="https://afdian.net/a/sy0519">
+                            	<local:MyButton Margin="0,10,140,10" Width="15" Height="15" HorizontalAlignment="Right" ToolTip="爱发电" EventType="打开网页" EventData="https://afdian.net/a/sy0519">
                             		<Path Fill="{DynamicResource ColorBrush5}" Stretch="Fill" Width="15" Height="15">
                             			<Path.Data>
                             				<PathGeometry FillRule="Nonzero" Figures="M679.402667 90.773333c-60.010667 1.706667-117.290667 23.061333-164.778667 60.736l-2.709333 2.176-2.496-2.005333c-49.6-39.104-110.485333-61.013333-172.672-61.013333-159.850667 0-288.746667 138.026667-288.746667 306.56 0 81.237333 22.528 134.165333 75.456 215.722666 40.704 63.210667 107.946667 134.506667 191.808 209.386667a2351.722667 2351.722667 0 0 0 87.744 74.453333l22.336 17.834667 16.789333 13.013333 2.538667 1.92a109.653333 109.653333 0 0 0 67.306667 22.912 109.866667 109.866667 0 0 0 63.232-19.904l9.386666-7.04 19.968-15.722666 17.002667-13.674667a2421.184 2421.184 0 0 0 87.68-74.752c83.626667-74.88 150.570667-145.792 191.210667-208.32 53.056-81.792 75.541333-134.613333 75.541333-215.829333 0-26.986667-3.306667-53.546667-9.770667-79.210667C932.8 185.408 819.050667 90.666667 687.253333 90.666667l-7.850666 0.106666z m7.850666 74.56c96.554667 0 181.269333 70.570667 206.570667 170.944 4.970667 19.690667 7.509333 40.128 7.509333 60.949334 0 62.976-17.728 104.597333-63.488 175.146666-31.850667 49.024-84.565333 106.666667-150.656 168.064l-18.346666 16.853334-9.408 8.469333c-22.826667 20.416-45.781333 40.106667-68.224 58.709333l-21.44 17.514667-13.013334 10.453333-22.442666 17.536a35.626667 35.626667 0 0 1-22.336 7.829334c-8.042667 0-15.509333-2.56-21.973334-7.552l-11.413333-8.768-19.52-15.424-9.152-7.338667a2277.696 2277.696 0 0 1-84.928-72.106667c-79.274667-70.741333-142.528-137.834667-178.837333-194.197333-45.738667-70.485333-63.488-112.192-63.488-175.189333 0-128.384 96.64-231.893333 214.08-231.893334 54.613333 0 108.565333 23.552 148.416 64.853334a37.333333 37.333333 0 0 0 53.76-0.064c40.192-41.792 92.906667-64.789333 148.330666-64.789334zM674.005333 297.130667a34.133333 34.133333 0 0 1 46.506667-12.970667c9.813333 5.546667 22.677333 15.68 35.221333 31.189333 27.733333 34.261333 40.192 79.424 29.077334 133.717334a34.133333 34.133333 0 0 1-66.88-13.696c6.869333-33.493333 0.085333-58.133333-15.253334-77.077334a71.168 71.168 0 0 0-14.485333-13.909333l-1.237333-0.768a34.133333 34.133333 0 0 1-12.949334-46.506667v0.021334z"/>
                             			</Path.Data>
                             		</Path>
                             	</local:MyButton>
-                            	<local:MyButton Margin="0,10,100,10" Width="15" Height="15" HorizontalAlignment="Right" ToolTip="关机" EventType="打开文件"
+                            	<local:MyButton Margin="0,10,120,10" Width="15" Height="15" HorizontalAlignment="Right" ToolTip="关机" EventType="打开文件"
                                 		EventData="cmd.exe|/c start /min /b taskkill /FI &quot;windowtitle eq plain*&quot;">
                                 		<Path Fill="{DynamicResource ColorBrush5}" Stretch="Fill" Width="13" Height="15">
                                 			<Path.Data>
@@ -84,35 +84,41 @@
                                 			</Path.Data>
                                 		</Path>
                                 	</local:MyButton>
-                                		<local:MyButton Margin="0,10,80,10" Width="15" Height="15" HorizontalAlignment="Right" ToolTip="宣传片" EventType="打开网页" EventData="https://www.bilibili.com/video/BV1bj41197V9/">
+                                		<local:MyButton Margin="0,10,100,10" Width="15" Height="15" HorizontalAlignment="Right" ToolTip="宣传片" EventType="打开网页" EventData="https://www.bilibili.com/video/BV1bj41197V9/">
                                     		<Path Fill="{DynamicResource ColorBrush5}" Stretch="Fill" Width="12" Height="15">
                                     			<Path.Data>
                                     				<PathGeometry FillRule="Nonzero" Figures="M921.6 947.2a25.6 25.6 0 0 1-25.6 25.6H128a25.6 25.6 0 0 1-25.6-25.6V76.8a25.6 25.6 0 0 1 25.6-25.6h512.1536L921.6 333.568V947.2zM563.2 128H179.2v768h665.6V409.6H563.2V128z m-153.6 279.552a25.6 25.6 0 0 1 14.6688 4.6336l236.9792 165.888a25.6 25.6 0 0 1 0 41.9328l-236.9792 165.888a25.6 25.6 0 0 1-40.2688-20.992V433.1776a25.6 25.6 0 0 1 25.6-25.6z m51.2 123.9296v135.0912l96.4608-67.5328L460.8 531.4816z m179.2-371.6608V332.8h172.3904L640 159.8208z"/>
                                     			</Path.Data>
                                     		</Path>
                                     	</local:MyButton>
-                                   	<local:MyButton Margin="0,10,60,10" Width="15" Height="15" HorizontalAlignment="Right" ToolTip="仕洋的主页" EventType="打开网页" EventData="https://space.bilibili.com/1151723944">
+                                   	<local:MyButton Margin="0,10,80,10" Width="15" Height="15" HorizontalAlignment="Right" ToolTip="仕洋的主页" EventType="打开网页" EventData="https://space.bilibili.com/1151723944">
                                    		<Path Fill="{DynamicResource ColorBrush5}" Stretch="Fill" Width="15" Height="15">
                                         			<Path.Data>
                                         				<PathGeometry FillRule="Nonzero" Figures="M450.803484 456.506027l-120.670435 23.103715 10.333298 45.288107 119.454151-23.102578-9.117014-45.289244z m65.04448 120.060586c-29.483236 63.220622-55.926329 15.502222-55.926328 15.502223l-19.754098 12.768142s38.90176 53.192249 75.986489 12.764729c43.770311 40.42752 77.203911-13.068516 77.203911-13.068516l-17.934791-11.55072c0.001138-0.304924-31.305956 44.983182-59.575183-16.415858z m59.57632-74.773617L695.182222 524.895573l10.029511-45.288106-120.364373-23.103716-9.423076 45.289245z m237.784178-88.926436c-1.905778-84.362809-75.487004-100.540871-75.487004-100.540871s-57.408853-0.316302-131.944676-0.95232l54.237867-52.332089s8.562916-10.784996-6.026809-22.834062c-14.592-12.051342-15.543182-6.660551-20.615396-3.487289-4.441884 3.169849-69.462471 66.920676-80.878933 78.340551-29.494613 0-60.2624-0.319716-90.075591-0.319716h10.466418s-77.705671-76.754489-82.781298-80.241777c-5.075627-3.488427-5.709369-8.56064-20.616533 3.487289-14.589724 12.05248-6.026809 22.8352-6.026809 22.8352l55.504213 53.919288c-60.261262 0-112.280462 0.319716-136.383147 1.268623-78.025387 22.521173-71.99744 100.859449-71.99744 100.859449s0.950044 168.100978 0 253.103217c8.562916 85.00224 73.899804 98.636231 73.899805 98.636231s26.007324 0.63488 45.357511 0.63488c1.900089 5.391929 3.486151 32.034133 33.302756 32.034134 29.495751 0 33.30048-32.034133 33.30048-32.034134s217.263218-0.950044 235.340231-0.950044c0.953458 9.196658 5.394204 33.619058 35.207395 33.303893 29.494613-0.636018 31.714418-35.20512 31.714418-35.20512s10.151253-0.95232 40.280747 0c70.413653-13.005938 74.534684-95.468658 74.534684-95.468657s-1.265209-169.689316-0.312889-254.056676zM752.628622 681.8304c0 13.319964-10.467556 24.102684-23.471218 24.102684H300.980907c-13.003662 0-23.47008-10.78272-23.47008-24.102684V397.961671c0-13.32224 10.467556-24.106098 23.47008-24.106098h428.176497c13.003662 0 23.471218 10.783858 23.471218 24.106098v283.868729z"/>
                                         			</Path.Data>
                                    		</Path>
                                    	</local:MyButton>
-                                   	<local:MyButton Margin="0,10,40,10" Width="15" Height="15" HorizontalAlignment="Right" ToolTip="作者邮箱" EventType="复制文本" EventData="有什么奇奇怪怪的建议都可以写在2473573684@qq.com">
+                                   	<local:MyButton Margin="0,10,60,10" Width="15" Height="15" HorizontalAlignment="Right" ToolTip="作者邮箱" EventType="复制文本" EventData="有什么奇奇怪怪的建议都可以写在2473573684@qq.com">
                                    		<Path Fill="{DynamicResource ColorBrush5}" Stretch="Fill" Width="15" Height="15">
                                             <Path.Data>
                                                 <PathGeometry FillRule="Nonzero" Figures="M870.4512 555.008a273.92 273.92 0 0 0-55.296-99.328v-4.096a153.6 153.6 0 0 0-17.408-71.68 291.84 291.84 0 0 0-285.696-292.864 291.328 291.328 0 0 0-285.184 293.376 153.6 153.6 0 0 0-17.408 71.168v3.072a282.624 282.624 0 0 0-55.808 102.4c-27.136 89.088-21.504 190.976 41.472 212.992l12.288 3.072c-8.704 14.336-13.312 30.8224-13.312 47.616 0 68.608 74.752 118.272 177.664 118.272a235.52 235.52 0 0 0 131.072-35.328h18.432a235.008 235.008 0 0 0 130.56 35.328c102.4 0 178.176-51.2 178.176-118.272a87.552 87.552 0 0 0-13.824-47.616 51.2 51.2 0 0 0 12.8-3.072c62.976-24.064 68.608-125.952 41.472-215.04z m-77.824 132.608a33.792 33.792 0 0 0-30.72-12.8 33.792 33.792 0 0 0-27.648 18.944 346.112 346.112 0 0 1-23.552 36.864 36.352 36.352 0 0 0-6.144 30.72 35.84 35.84 0 0 0 20.48 24.064c20.992 9.216 34.304 22.016 34.304 33.28 0 22.016-46.08 46.592-107.52 46.592a153.6 153.6 0 0 1-96.256-27.648 35.84 35.84 0 0 0-25.6-8.704 204.8 204.8 0 0 1-35.328 0 34.816 34.816 0 0 0-26.112 8.704 153.6 153.6 0 0 1-96.768 27.648c-61.44 0-107.008-24.576-107.008-46.592 0-11.264 13.312-24.064 34.816-33.28a36.864 36.864 0 0 0 13.824-55.296 247.296 247.296 0 0 1-23.04-36.864 37.376 37.376 0 0 0-27.648-18.944 37.888 37.888 0 0 0-31.232 12.8 72.704 72.704 0 0 1-12.8 13.312 167.936 167.936 0 0 1 0-124.416 209.92 209.92 0 0 1 51.2-83.456 35.328 35.328 0 0 0 10.752-31.744 68.608 68.608 0 0 1 0-10.24 86.528 86.528 0 0 1 11.776-40.96 41.984 41.984 0 0 0 5.12-24.576 220.16 220.16 0 0 1 214.528-226.304 221.184 221.184 0 0 1 215.04 227.84 33.28 33.28 0 0 0 5.12 20.992c8.0384 13.312 12.4416 28.4672 12.8 44.032 0.256 3.584 0.256 7.168 0 10.752a37.376 37.376 0 0 0 9.216 30.72 204.8 204.8 0 0 1 51.2 82.944 176.128 176.128 0 0 1 3.584 123.904 40.96 40.96 0 0 1-16.384-12.288z"/>
                                             </Path.Data>
                                    		</Path>
                                    	</local:MyButton>
-                                   	<local:MyButton Margin="0,10,20,10" Width="15" Height="15" HorizontalAlignment="Right" ToolTip="今日人品" EventType="今日人品" >
+                                   	<local:MyButton Margin="0,10,40,10" Width="15" Height="15" HorizontalAlignment="Right" ToolTip="今日人品" EventType="今日人品" >
                                    		<Path Fill="{DynamicResource ColorBrush5}" Stretch="Fill" Width="15" Height="15">
                                             <Path.Data>
                                                 <PathGeometry FillRule="Nonzero" Figures="M230.4 947.2v-76.8h243.2v-130.5856c-129.1776-17.6128-230.4768-122.8288-242.0992-253.824A166.4 166.4 0 0 1 76.8 320V128h153.6V76.8h563.2v51.2h153.6v192a166.4 166.4 0 0 1-154.752 165.9904c-11.5712 130.9696-112.8704 236.1856-242.0224 253.7984L550.4 870.4H793.6v76.8H230.4zM716.8 153.6H307.2v307.2a204.8 204.8 0 0 0 198.4 204.6976L512 665.6a204.8 204.8 0 0 0 204.8-204.8V153.6zM230.4 204.8H153.6v115.2a89.6 89.6 0 0 0 76.8 88.704V204.8z m640 0h-76.8v203.8784a89.6 89.6 0 0 0 76.8-88.6784V204.8z"/>
                                             </Path.Data>
                                    		</Path>
                                    	</local:MyButton>
-
+                                    <local:MyButton Margin="0,10,20,10" Width="15" Height="15" HorizontalAlignment="Right" ToolTip="内存优化物理减少1/3的内存，不仅限于MC！" EventType="内存优化">
+                                        <Path Fill="{DynamicResource ColorBrush5}" Stretch="Fill" Width="15" Height="15">
+                                                                                <Path.Data>
+                                                                                    <PathGeometry FillRule="Nonzero" Figures="M874.666667 864H170.666667c-6.4 0-10.666667-4.266667-10.666667-10.666667V149.333333c0-17.066667-14.933333-32-32-32S96 132.266667 96 149.333333v704c0 40.533333 34.133333 74.666667 74.666667 74.666667h704c17.066667 0 32-14.933333 32-32s-14.933333-32-32-32zM437.333333 469.333333v320c0 17.066667 14.933333 32 32 32s32-14.933333 32-32V469.333333c0-17.066667-14.933333-32-32-32s-32 14.933333-32 32zM298.666667 821.333333c17.066667 0 32-14.933333 32-32V533.333333c0-17.066667-14.933333-32-32-32s-32 14.933333-32 32v256c0 17.066667 14.933333 32 32 32zM640 565.333333c-17.066667 0-32 14.933333-32 32v192c0 17.066667 14.933333 32 32 32s32-14.933333 32-32v-192c0-17.066667-14.933333-32-32-32zM810.666667 352c-17.066667 0-32 14.933333-32 32v405.333333c0 17.066667 14.933333 32 32 32s32-14.933333 32-32V384c0-17.066667-14.933333-32-32-32zM322.133333 407.466667l147.2-147.2 147.2 147.2c6.4 6.4 14.933333 8.533333 23.466667 8.533333h2.133333c8.533333 0 17.066667-6.4 23.466667-12.8l170.666667-234.666667c10.666667-14.933333 6.4-34.133333-6.4-44.8-14.933333-10.666667-34.133333-6.4-44.8 6.4l-149.333334 204.8L490.666667 189.866667c-12.8-12.8-32-12.8-44.8 0l-170.666667 170.666666c-12.8 12.8-12.8 32 0 44.8 12.8 12.8 34.133333 12.8 46.933333 2.133334z"/>
+                                                                                </Path.Data>
+                                                                       		</Path>
+                                                                       	</local:MyButton>
 
 
     </local:MyCard>
@@ -306,9 +312,9 @@
                                      <TextBlock  Text=" （有什么问题找我或者发邮箱）"/>
            </StackPanel>
 		  <TextBlock Text="更新日志 ：" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
-                      <TextBlock Text="更新学习专区 " FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
-                      <TextBlock Text="删除《蕨仕洋》按钮" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
-                      <TextBlock Text="测试新闻主页" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
+                      <TextBlock Text="重大更新！ " FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
+                      <TextBlock Text="增加内存优化功能！" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
+                      <TextBlock Text="（优化不仅限于MC！）" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
                       <TextBlock Text="" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
                       <local:MyHint IsWarn="False" Text="仕洋会抓紧更新的！" />
 </StackPanel>
@@ -408,9 +414,10 @@
                     <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="8,4,10,0" Height="35" Padding="13,0,13,0" ColorType="Red"
                          Text="魔镜"  EventType="弹出窗口" EventData="哦!我的主人|你可真是 : !@#$%%$@#%^&#xA;(语言指导 ：赵德柱)"/>
                </StackPanel>
-
-
-
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <local:MyButton Width="338"  HorizontalAlignment="Center" Margin="0,4,10,0" Height="35"  Padding="13,0,13,0" ColorType="Highlight"
+                         Text="内存优化！" EventType="内存优化" ToolTip="物理减少1/3的内存，不仅限于MC！"/>
+                </StackPanel>
                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                    <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="0,4,10,0" Height="35" Padding="13,0,13,0" ColorType="Highlight" Text="刷新主页" EventType="刷新主页"  />
                    <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="8,4,10,0"  Height="35" Padding="13,0,13,0" Text="复制服务器地址" EventType="复制文本" EventData="cn-gd-sz.starryfrp.com:45146" ToolTip="1.20.1 仕洋team官方服务器IP：cn-gd-sz.starryfrp.com:45146"/>

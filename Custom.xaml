@@ -582,12 +582,6 @@
                                群众把他抬举得很高，很高。" />
             <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="0,4,10,8" Height="35" Padding="13,0,13,0" ColorType="Highlight"
                          Text="本篇解析" EventType="打开网页" EventData="https://www.yuwenmi.com/lizhi/shige/550368.html"/>
-
-
-
-
-
-
     </StackPanel>
 </local:MyCard>
 

@@ -43,10 +43,10 @@
     	<TextBlock x:Name="Text1" HorizontalAlignment="Left" Text=" Provided by Shiyang  " FontSize="13" Style="{StaticResource Text}" Foreground="#8D724C" Margin="12,12">
 
 	    </TextBlock>
-	    <TextBlock x:Name="Text2" HorizontalAlignment="Left" Text="『天生我材必有用，千金散尽还复来。』"   FontSize="13" Style="{StaticResource Text}" Foreground="#00000000"  Margin="12,12">
+	    <TextBlock x:Name="Text2" HorizontalAlignment="Left" Text=" 2023/8/12更新 "   FontSize="13" Style="{StaticResource Text}" Foreground="#00000000"  Margin="12,12">
 
 	    </TextBlock>
-	    <TextBlock x:Name="Text3" HorizontalAlignment="Left" Text=" 2023/8/9 更新 版本1.3.4 " Style="{StaticResource Text}"    FontSize="13" Foreground="#00000000"  Margin="12,12">
+	    <TextBlock x:Name="Text3" HorizontalAlignment="Left" Text="版本1.3.7（正式版） " Style="{StaticResource Text}"    FontSize="13" Foreground="#00000000"  Margin="12,12">
 
 	    </TextBlock>
 
@@ -129,17 +129,6 @@
 
 
 
-<Grid UseLayoutRounding="True">
-	<Grid.RowDefinitions>
-		<RowDefinition></RowDefinition>
-	</Grid.RowDefinitions>
-	<Grid.ColumnDefinitions>
-		<ColumnDefinition Width="12*"></ColumnDefinition>
-		<ColumnDefinition Width="0.5*"></ColumnDefinition>
-		<ColumnDefinition Width="9*"></ColumnDefinition>
-	</Grid.ColumnDefinitions>
-	<GridSplitter Grid.Column="1" Width="5" Margin="0,0,0,20" Opacity="0"
-		VerticalAlignment="Stretch" HorizontalAlignment="Center"/>
 <local:MyCard Title="  💖"  Margin="0,10,0,15" Grid.Row="0" Grid.Column="3" CanSwap="True" >
 		<StackPanel Margin="25,40,23,15" Grid.Row="0" Grid.Column="3">
 			<TextBlock Margin="0,0,0,3" Foreground="{DynamicResource ColorBrush5}" HorizontalAlignment="Center"
@@ -260,70 +249,8 @@
 				Text=""/>
 			<TextBlock  Opacity="0.5" Margin="0,0,0,3" Foreground="{DynamicResource ColorBrush4}" HorizontalAlignment="Right" FontStyle="Italic" FontSize="14"
 				Text="——臧克家《有的人》"/>
-		</StackPanel>
-	</local:MyCard>
-
-<local:MyCard Title="更新说明" CanSwap="False"  IsSwaped="False"  Margin="0,10,0,15" >
-
-
- <StackPanel Margin="25,40,23,15">
-
-        <Grid UseLayoutRounding="True">
-	        <Grid.RowDefinitions>
-		        <RowDefinition></RowDefinition>
-	        </Grid.RowDefinitions>
-	        <Grid.ColumnDefinitions>
-		        <ColumnDefinition Width="0.2*"></ColumnDefinition>
-		        <ColumnDefinition Width="2.5*"></ColumnDefinition>
-		        <ColumnDefinition></ColumnDefinition>
-	        </Grid.ColumnDefinitions>
-	        <GridSplitter Grid.Column="1" Width="5" Margin="0,0,0,20" Opacity="0"
-		        VerticalAlignment="Stretch" HorizontalAlignment="Center"/>
-            <TextBlock Margin="1,4.5,0,0" Grid.Column="1" Text=" 作者:仕洋不是羊"/>
-            <local:MyTextButton Margin="0,2,0,0" Grid.Column="0" EventType="打开网页" EventData="https://space.bilibili.com/1151723944" Width="19" Height="20" ToolTip="作者B站主页"/>
-        		<Path Fill="{DynamicResource ColorBrush5}" Stretch="Fill" Width="19" Height="18">
-			<Path.Data>
-				<PathGeometry FillRule="Nonzero" Figures="M450.803484 456.506027l-120.670435 23.103715 10.333298 45.288107 119.454151-23.102578-9.117014-45.289244z m65.04448 120.060586c-29.483236 63.220622-55.926329 15.502222-55.926328 15.502223l-19.754098 12.768142s38.90176 53.192249 75.986489 12.764729c43.770311 40.42752 77.203911-13.068516 77.203911-13.068516l-17.934791-11.55072c0.001138-0.304924-31.305956 44.983182-59.575183-16.415858z m59.57632-74.773617L695.182222 524.895573l10.029511-45.288106-120.364373-23.103716-9.423076 45.289245z m237.784178-88.926436c-1.905778-84.362809-75.487004-100.540871-75.487004-100.540871s-57.408853-0.316302-131.944676-0.95232l54.237867-52.332089s8.562916-10.784996-6.026809-22.834062c-14.592-12.051342-15.543182-6.660551-20.615396-3.487289-4.441884 3.169849-69.462471 66.920676-80.878933 78.340551-29.494613 0-60.2624-0.319716-90.075591-0.319716h10.466418s-77.705671-76.754489-82.781298-80.241777c-5.075627-3.488427-5.709369-8.56064-20.616533 3.487289-14.589724 12.05248-6.026809 22.8352-6.026809 22.8352l55.504213 53.919288c-60.261262 0-112.280462 0.319716-136.383147 1.268623-78.025387 22.521173-71.99744 100.859449-71.99744 100.859449s0.950044 168.100978 0 253.103217c8.562916 85.00224 73.899804 98.636231 73.899805 98.636231s26.007324 0.63488 45.357511 0.63488c1.900089 5.391929 3.486151 32.034133 33.302756 32.034134 29.495751 0 33.30048-32.034133 33.30048-32.034134s217.263218-0.950044 235.340231-0.950044c0.953458 9.196658 5.394204 33.619058 35.207395 33.303893 29.494613-0.636018 31.714418-35.20512 31.714418-35.20512s10.151253-0.95232 40.280747 0c70.413653-13.005938 74.534684-95.468658 74.534684-95.468657s-1.265209-169.689316-0.312889-254.056676zM752.628622 681.8304c0 13.319964-10.467556 24.102684-23.471218 24.102684H300.980907c-13.003662 0-23.47008-10.78272-23.47008-24.102684V397.961671c0-13.32224 10.467556-24.106098 23.47008-24.106098h428.176497c13.003662 0 23.471218 10.783858 23.471218 24.106098v283.868729z"/>
-			</Path.Data>
-		</Path>
-        </Grid>
-            <Grid UseLayoutRounding="True">
-	            <Grid.RowDefinitions>
-		            <RowDefinition></RowDefinition>
-	            </Grid.RowDefinitions>
-	            <Grid.ColumnDefinitions>
-		            <ColumnDefinition Width="0.2   *"></ColumnDefinition>
-		            <ColumnDefinition Width="2.5*"></ColumnDefinition>
-		            <ColumnDefinition></ColumnDefinition>
-	            </Grid.ColumnDefinitions>
-	            <GridSplitter Grid.Column="1" Width="5" Margin="0,0,0,20" Opacity="0"
-		            VerticalAlignment="Stretch" HorizontalAlignment="Center"/>
-                <TextBlock Margin="1,4.5,0,0" Grid.Column="1" Text=" 作者QQ:2473573684"/>
-
-                <local:MyTextButton Grid.Column="0" Margin="0,3,0,0" EventType="复制文本" EventData="2473573684@qq.com" Width="19" Height="20" ToolTip="点击复制"/>
-        		    <Path Fill="{DynamicResource ColorBrush5}" Stretch="Fill" Width="18" Height="18">
-			    <Path.Data>
-				    <PathGeometry FillRule="Nonzero" Figures="M870.4512 555.008a273.92 273.92 0 0 0-55.296-99.328v-4.096a153.6 153.6 0 0 0-17.408-71.68 291.84 291.84 0 0 0-285.696-292.864 291.328 291.328 0 0 0-285.184 293.376 153.6 153.6 0 0 0-17.408 71.168v3.072a282.624 282.624 0 0 0-55.808 102.4c-27.136 89.088-21.504 190.976 41.472 212.992l12.288 3.072c-8.704 14.336-13.312 30.8224-13.312 47.616 0 68.608 74.752 118.272 177.664 118.272a235.52 235.52 0 0 0 131.072-35.328h18.432a235.008 235.008 0 0 0 130.56 35.328c102.4 0 178.176-51.2 178.176-118.272a87.552 87.552 0 0 0-13.824-47.616 51.2 51.2 0 0 0 12.8-3.072c62.976-24.064 68.608-125.952 41.472-215.04z m-77.824 132.608a33.792 33.792 0 0 0-30.72-12.8 33.792 33.792 0 0 0-27.648 18.944 346.112 346.112 0 0 1-23.552 36.864 36.352 36.352 0 0 0-6.144 30.72 35.84 35.84 0 0 0 20.48 24.064c20.992 9.216 34.304 22.016 34.304 33.28 0 22.016-46.08 46.592-107.52 46.592a153.6 153.6 0 0 1-96.256-27.648 35.84 35.84 0 0 0-25.6-8.704 204.8 204.8 0 0 1-35.328 0 34.816 34.816 0 0 0-26.112 8.704 153.6 153.6 0 0 1-96.768 27.648c-61.44 0-107.008-24.576-107.008-46.592 0-11.264 13.312-24.064 34.816-33.28a36.864 36.864 0 0 0 13.824-55.296 247.296 247.296 0 0 1-23.04-36.864 37.376 37.376 0 0 0-27.648-18.944 37.888 37.888 0 0 0-31.232 12.8 72.704 72.704 0 0 1-12.8 13.312 167.936 167.936 0 0 1 0-124.416 209.92 209.92 0 0 1 51.2-83.456 35.328 35.328 0 0 0 10.752-31.744 68.608 68.608 0 0 1 0-10.24 86.528 86.528 0 0 1 11.776-40.96 41.984 41.984 0 0 0 5.12-24.576 220.16 220.16 0 0 1 214.528-226.304 221.184 221.184 0 0 1 215.04 227.84 33.28 33.28 0 0 0 5.12 20.992c8.0384 13.312 12.4416 28.4672 12.8 44.032 0.256 3.584 0.256 7.168 0 10.752a37.376 37.376 0 0 0 9.216 30.72 204.8 204.8 0 0 1 51.2 82.944 176.128 176.128 0 0 1 3.584 123.904 40.96 40.96 0 0 1-16.384-12.288z"/>
-			    </Path.Data>
-		    </Path>
-
-		  </Grid>
-		  <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
-                                     <TextBlock  Text=" （有什么问题找我或者发邮箱）"/>
-           </StackPanel>
-		  <TextBlock Text="更新日志 ：" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
-                      <TextBlock Text="重大更新！ " FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
-                      <TextBlock Text="增加内存优化功能！" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
-                      <TextBlock Text="（优化不仅限于MC！）" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
-                      <TextBlock Text="" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,10" TextWrapping="Wrap"/>
-                      <local:MyHint IsWarn="False" Text="仕洋会抓紧更新的！" />
-</StackPanel>
+    </StackPanel>
 </local:MyCard>
-
-
-
-</Grid>
-
 <local:MyCard Title="网站" CanSwap="True" IsSwaped="True" Margin="0,0,0,15">
         <StackPanel Margin="25,40,23,15" >
 
@@ -386,86 +313,34 @@
 </Grid>
 
 <local:MyButton Margin="0,0,0,8" Text="新闻主页" ToolTip="最亮的信标编写" Height="35" HorizontalAlignment="Center" Width="260" EventType="打开帮助" EventData="https://news.bugjump.net/News.json" />
-<local:MyHint Text="此功能测试中！(指新闻主页)"/>
        </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="小功能" CanSwap="True" IsSwaped="True" Margin="0,0,0,15" >
-
-     <StackPanel Margin="25,40,23,15" >
-                <TextBlock Text="冷知识：仕洋team成立于2023/3/14" Foreground="#25D2F5" HorizontalAlignment="Left" Margin="0,0,0,10"/>
-                <local:MyHint Text="仅供娱乐，切勿上火！"/>
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                     <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="0,4,10,0" Height="35" Padding="13,0,13,0" ColorType="Highlight"
-                                Text="今日人品" EventType="今日人品" />
-                     <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="8,4,10,0"  Height="35" Padding="13,0,13,0" ColorType="Red"
-                                Text="复制惊喜" EventType="复制文本" EventData="/execute as @a at @s run summon Creeper ~ ~2 ~" ToolTip="会在你的好基友头上召唤两只可爱的苦力怕怕哦！"/>
-               </StackPanel>
-               <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                    <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="0,4,10,0" Height="35"  Padding="13,0,13,0" ColorType="Highlight"
-                         Text="清理垃圾" EventType="清理垃圾"/>
-
-                    <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="8,4,10,0" Height="35" Padding="13,0,13,0"
-                         Text="下载8K色图" EventType="打开网页" EventData="https://www.bilibili.com/video/BV1VU4y1L7x7/"/>
-               </StackPanel>
-               <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                    <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="0,4,10,0" Height="35" Padding="13,0,13,0" ColorType="Red"
-                         Text="千万别点" EventType="刷新主页"  />
-                    <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="8,4,10,0" Height="35" Padding="13,0,13,0" ColorType="Red"
-                         Text="魔镜"  EventType="弹出窗口" EventData="哦!我的主人|你可真是 : !@#$%%$@#%^&#xA;(语言指导 ：赵德柱)"/>
-               </StackPanel>
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                    <local:MyButton Width="338"  HorizontalAlignment="Center" Margin="0,4,10,0" Height="35"  Padding="13,0,13,0" ColorType="Highlight"
-                         Text="内存优化！" EventType="内存优化" ToolTip="物理减少1/3的内存，不仅限于MC！"/>
-                </StackPanel>
-               <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                   <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="0,4,10,0" Height="35" Padding="13,0,13,0" ColorType="Highlight" Text="刷新主页" EventType="刷新主页"  />
-                   <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="8,4,10,0"  Height="35" Padding="13,0,13,0" Text="复制服务器地址" EventType="复制文本" EventData="cn-gd-sz.starryfrp.com:45146" ToolTip="1.20.1 仕洋team官方服务器IP：cn-gd-sz.starryfrp.com:45146"/>
-               </StackPanel>
-               <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                   <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="0,4,10,0" Height="35"  Padding="13,0,13,0" ColorType="Highlight" Text="进入仕洋SY B站主页" EventType="打开网页" EventData="https://space.bilibili.com/1151723944?spm_id_from=333.1007.0.0"/>
-                   <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="8,4,10,0" Height="35" Padding="13,0,13,0" ColorType="Highlight" Text="赠言" EventType="弹出窗口" EventData="赠言|仕洋team爱你们呦！" />
-               </StackPanel>
-               <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                   <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="0,4,10,0" Height="35" Padding="13,0,13,0" ColorType="Red" Text="进入仕洋team爱发电" EventType="打开网页" EventData="https://afdian.net/a/sy0519"/>
-                   <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="8,4,10,0" Height="35" Padding="13,0,13,0" ColorType="Highlight" Text="仕洋team官网" EventType="打开网页" EventData="" />
-               </StackPanel>
-               <Grid UseLayoutRounding="True">
-                               <Grid.RowDefinitions>
-                                   <RowDefinition></RowDefinition>
-                               </Grid.RowDefinitions>
-                               <Grid.ColumnDefinitions>
-                                   <ColumnDefinition Width="215"></ColumnDefinition>
-                                   <ColumnDefinition Width="5"></ColumnDefinition>
-                                   <ColumnDefinition Width="*"></ColumnDefinition>
-                               </Grid.ColumnDefinitions>
-                               <GridSplitter Grid.Column="1" Width="5" Margin="0,0,0,20" Opacity="0"
-                                   VerticalAlignment="Stretch" HorizontalAlignment="Center"/>
-                               <Calendar  HorizontalAlignment="Left" Margin="16,30,0,10" Grid.Row="0" Grid.Column="0"></Calendar>
-                               <InkCanvas EditingMode="Ink" HorizontalAlignment="Right" Margin="0,30,15,10" Grid.Row="0" Grid.Column="2"
-                                   Width="1024" MaxHeight="768" MinHeight="100" Background="{DynamicResource ColorBrush5}">
-                               </InkCanvas>
-                           </Grid>
 
 
 
 
-        <local:MyHint IsWarn="True" Text="链接必须为以http://或https://开头的网址，部分网址可能无法下载（如百度网盘）" />
-
-        <StackPanel Orientation="Horizontal" Height="50" Width="800">
-
-            <TextBlock Text="下载链接：" VerticalAlignment="Center" />
-
-            <local:MyTextBox Margin="3" Name="web" Height="30" Width="380" />
-
-            <local:MyButton EventType="下载文件" EventData="{Binding ElementName=web,Path=Text}" Text="开始下载" Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"/>
-
-        </StackPanel>
-
-
-     </StackPanel>
-</local:MyCard>
-
+        <local:MyCard Title="mod介绍" CanSwap="True" IsSwaped="True" Margin="0,0,0,15" Grid.Row="0" Grid.Column="3"  >
+             <StackPanel Margin="25,40,23,15">
+                    <Image Source="https://i2.mcmod.cn/editor/upload/20220904/1662262119_216326_xMLH.webp" Margin="0,0,0,15"  />
+                    <TextBlock TextWrapping="Wrap" Grid.Column="1" FontSize="16" Text="    机械动力(Create)是一个围绕着建筑、装饰和机械的新兴模组，所添加的元素旨在为玩家提供全新的建筑与自动化体验，并尽可能多地为玩家预留自定义空间。在机器与能源方面，模组做出了极大的创新。机器不再由传统科技模组中乏味的电线供能，而是需要玩家搭建机械传动系统驱动。加工过程也不再是枯燥的GUI里等待进度条—遍遍被填满，机器可以直接与世界中的物品交互，并且加工时有着精美的动画。模组还具有独创的动态结构系统，可以使世界中的方块结构作为整体运动，进行各种自动化，并且有着真实的物理效果。" Foreground="{DynamicResource ColorBrush2}"  Margin="4,0,0,15"/>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*" />
+                                    <ColumnDefinition Width="1*" /> <!-- 这个按钮的宽度是其他按钮的 1.6 倍 -->
+                                    <ColumnDefinition Width="1*" /> <!-- 如果不打 *，则会占用固定的宽度 -->
+                                </Grid.ColumnDefinitions>
+                                <local:MyButton Grid.Column="0" Margin="0,0,10,4" Height="35" ColorType="Highlight"
+                                            Text="B站视频" EventType="打开网页" EventData="https://www.bilibili.com/video/av9798281" />
+                                <local:MyButton Grid.Column="1" Margin="0,0,10,4" Height="35" ColorType="Highlight"
+                                            Text="进入mod百科" EventType="打开网页" EventData="https://www.mcmod.cn/class/2021.html"/>
+                                <local:MyButton Grid.Column="2" Margin="0,0,10,4" Height="35" ColorType="Highlight"
+                                            Text="进入下载" EventType="打开网页" EventData="https://www.curseforge.com/minecraft/mc-mods/create-fabric" />
+                            </Grid>
+            <local:MyListItem Margin="-5,0,-5,8" Logo="https://media.forgecdn.net/avatars/548/377/637883834427445340.png" Title="Create" Info="机械动力Fabric下载" EventType="打开网页" EventData="https://www.curseforge.com/minecraft/mc-mods/create-fabric" Type="Clickable"/>
+            <local:MyListItem Margin="-5,0,-5,8" Logo="https://media.forgecdn.net/avatars/393/435/637588742363737916.png" Title="Create" Info="机械动力Forge下载" EventType="打开网页" EventData="https://www.curseforge.com/minecraft/mc-mods/create/files/4626108" Type="Clickable"/>
+            </StackPanel>
+        </local:MyCard>
 <local:MyCard Title="学习专区" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15" >
         <local:MyHint Text="好好学习，天天向上！" Margin="0,0,0,8" IsWarn="False" />
@@ -584,7 +459,22 @@
                          Text="本篇解析" EventType="打开网页" EventData="https://www.yuwenmi.com/lizhi/shige/550368.html"/>
     </StackPanel>
 </local:MyCard>
-
+ <TextBlock Text="PCL2自定义主页（SYC）" FontSize="16" Margin="0,5,5,5" />
+        <TextBlock Text="By：仕洋SY（仕洋不是羊）" />
+        <TextBlock Text="维护：仕洋SY（仕洋不是羊）" />
+        <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="1.5" HorizontalAlignment="Center" Stretch="Fill"  Margin="0,10,0,0"/>
+        <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+          <TextBlock Text="反馈地址:  " />
+          <local:MyTextButton Text="2473573684@qq.com" EventType="复制文本" EventData="2473573684@qq.com" ToolTip="点击复制到剪贴板" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="0,2,0,0">
+          <TextBlock Text="最新版日志:  " />
+          <local:MyTextButton Text="爱发电" EventType="打开网页" EventData="https://afdian.net/p/27875ad4392111ee83f552540025c377" ToolTip="点击打开SYC主页更新日志" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="0,2,0,0">
+          <TextBlock Text="Gitee:  " />
+          <local:MyTextButton Text="https://gitee.com/csy0519/pcl2-GK-SY/blob/main/Custom.xaml" EventType="打开网页" EventData="https://gitee.com/csy0519/pcl2-GK-SY/blob/main/Custom.xaml" ToolTip="点击打开Gitee" Margin="0,0,0,15"/>
+        </StackPanel>
 <!-- 
 
 全部通用的属性：
@@ -638,5 +528,3 @@ local:MyListItem（列表项）：
  - Type：若留空仅单纯展示信息，设置为 Clickable 触发相应活动
 
 -->
-
-

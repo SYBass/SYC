@@ -331,7 +331,7 @@
                     <local:MyComboBoxItem Content="自定义主页教学"/>
                     <local:MyComboBoxItem Content="SYC主页更新日志"/>
                   </local:MyComboBox>
-                  <local:MyButton HorizontalAlignment="Center" Width="80" Grid.Column="1" Text="跳转→" EventType="打开帮助" EventData="{Binding Path=Text,ElementName=jumpbox,StringFormat=https://ghproxy.com/raw.githubusercontent.com/shiyang0510/pcl-GK-SY/main/Help/{0}.json}" />
+                  <local:MyButton HorizontalAlignment="Center" Width="80" Grid.Column="1" Text="跳转→" EventType="打开帮助" EventData="{Binding Path=Text,ElementName=jumpbox,StringFormat=https://raw.githubusercontent.com/shiyang0510/pcl-GK-SY/main/Help/{0}.json}" />
                 </Grid>
               </StackPanel>
             </local:MyCard>

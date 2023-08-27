@@ -1,4 +1,4 @@
-﻿        <local:MyCard Title="机械动力(Create)介绍" CanSwap="True" IsSwaped="True" Margin="0,0,0,15"   >
+﻿        <local:MyCard Title="机械动力(Create)介绍" CanSwap="True" IsSwaped="False" Margin="0,0,0,15"   >
              <StackPanel Margin="25,40,23,15">
                     <Image Source="https://i2.mcmod.cn/editor/upload/20220904/1662262119_216326_xMLH.webp" Margin="0,0,0,15"  />
                     <TextBlock TextWrapping="Wrap" Grid.Column="1" FontSize="16" Text="    机械动力(Create)是一个围绕着建筑、装饰和机械的新兴模组，所添加的元素旨在为玩家提供全新的建筑与自动化体验，并尽可能多地为玩家预留自定义空间。在机器与能源方面，模组做出了极大的创新。机器不再由传统科技模组中乏味的电线供能，而是需要玩家搭建机械传动系统驱动。加工过程也不再是枯燥的GUI里等待进度条—遍遍被填满，机器可以直接与世界中的物品交互，并且加工时有着精美的动画。模组还具有独创的动态结构系统，可以使世界中的方块结构作为整体运动，进行各种自动化，并且有着真实的物理效果。" Foreground="{DynamicResource ColorBrush2}"  Margin="4,0,0,15"/>
@@ -17,6 +17,78 @@
                             </Grid>
             <local:MyListItem Margin="-5,0,-5,8" Logo="https://media.forgecdn.net/avatars/548/377/637883834427445340.png" Title="Create" Info="机械动力Fabric下载" EventType="打开网页" EventData="https://www.curseforge.com/minecraft/mc-mods/create-fabric" Type="Clickable"/>
             <local:MyListItem Margin="-5,0,-5,8" Logo="https://media.forgecdn.net/avatars/393/435/637588742363737916.png" Title="Create" Info="机械动力Forge下载" EventType="打开网页" EventData="https://www.curseforge.com/minecraft/mc-mods/create/files/4626108" Type="Clickable"/>
+            <TextBlock Text="v0.3.2后, Create Forge需要飞轮前置模组。" Foreground="{DynamicResource ColorBrush2}" TextWrapping="Wrap" Margin="0,4,0,4" FontSize="16" />
+            <local:MyListItem Margin="-5,8,-5,8" Logo="https://media.forgecdn.net/avatars/396/694/637596735706303641.png" Title="飞轮" Info="机械动力Forge前置mod" EventType="打开网页" EventData="https://www.curseforge.com/minecraft/mc-mods/create-fabric" Type="Clickable"/>
+            </StackPanel>
+        </local:MyCard>
+        <local:MyCard Title="一键背包整理Next（Inventory Profiles Next）介绍" CanSwap="True" IsSwaped="True" Margin="0,0,0,15"   >
+             <StackPanel Margin="25,40,23,15">
+                    <Image Source="https://i2.mcmod.cn/class/cover/20210622/1624369306_21294_JPrN.jpg@480x300.jpg" Margin="0,0,0,15"  />
+                    <TextBlock TextWrapping="Wrap" Grid.Column="1" FontSize="16" Text="    这是一键背包整理的延续模组，下载时务必注意支持版本信息此mod在AGPL v3 license许可证下分发模组所添加的功能远不止一键整理。此模组可以:●帮助您整理物品栏(包括容器)●自动替换快要损坏的工具●-键将背包内物品存入箱子中●只移动物品栏/箱子里已有的物品，可以快捷、 尽可能多地带走战利品箱里的物品/往箱子里储存物品●锁定某个物品槽位，以在排序时将其忽略●保持锁定的槽位为空●完全只在客户端需装，可以在任何地方运作*附作者原话: “Be pure client-side, so that it works everywhere”.●按“R+C”键打开配置菜单" Foreground="{DynamicResource ColorBrush2}"  Margin="4,0,0,15"/>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*" />
+                                    <ColumnDefinition Width="1*" /> <!-- 这个按钮的宽度是其他按钮的 1.6 倍 -->
+                                </Grid.ColumnDefinitions>
+                                <local:MyButton Grid.Column="0" Margin="0,0,10,4" Height="35" ColorType="Highlight"
+                                            Text="进入mod百科" EventType="打开网页" EventData="https://www.mcmod.cn/class/4104.html"/>
+                                <local:MyButton Grid.Column="1" Margin="0,0,10,4" Height="35" ColorType="Highlight"
+                                            Text="进入下载" EventType="打开网页" EventData="https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next" />
+                            </Grid>
+            <local:MyListItem Margin="-5,0,-5,8" Logo="https://media.forgecdn.net/avatars/396/358/637595902538085971.png" Title="一键背包整理Next（Inventory Profiles Next）" Info="Fabric | Forge下载" EventType="打开网页" EventData="https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next" Type="Clickable"/>
+            <TextBlock Text="一键背包整理Next前置（Fabric）" Foreground="{DynamicResource ColorBrush2}" TextWrapping="Wrap" Margin="0,4,0,4" FontSize="16" />
+            <local:MyListItem Margin="-5,8,-5,8" Logo="https://media.forgecdn.net/avatars/181/492/636800855682272538.png" Title="Fabric Language Kotlin" Info="一键背包整理Next前置mod" EventType="打开网页" EventData="https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin" Type="Clickable"/>
+            <TextBlock Text="一键背包整理Next前置（Forge）" Foreground="{DynamicResource ColorBrush2}" TextWrapping="Wrap" Margin="0,4,0,4" FontSize="16" />
+            <local:MyListItem Margin="-5,8,-5,8" Logo="https://media.forgecdn.net/avatars/236/269/637091078382616109.png" Title="Kotlin for Forge" Info="一键背包整理Next前置mod" EventType="打开网页" EventData="https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge" Type="Clickable"/>
+            <TextBlock Text="一键背包整理Next前置（Forge | Fabric 必装）" Foreground="{DynamicResource ColorBrush2}" TextWrapping="Wrap" Margin="0,4,0,4" FontSize="16" />
+            <local:MyListItem Margin="-5,8,-5,8" Logo="https://media.forgecdn.net/avatars/614/67/637997179473226748.png" Title="libIPN" Info="一键背包整理Next前置前置mod" EventType="打开网页" EventData="https://www.curseforge.com/minecraft/mc-mods/libipn" Type="Clickable"/>
+
+            </StackPanel>
+        </local:MyCard>
+<local:MyCard Title="Carpet介绍" CanSwap="True" IsSwaped="True" Margin="0,0,0,15"   >
+             <StackPanel Margin="25,40,23,15">
+                    <Image Source="https://i.mcmod.cn/class/cover/20220425/1650892640_29797_aJhO.jpg@480x300.jpg" Margin="0,0,0,15"  />
+                    <TextBlock TextWrapping="Wrap" Grid.Column="1" FontSize="16" Text="    Carpet 是一款为 Minecraft 添加各种实验性功能的模组，它由 Gnembon 开发。Carpet 的功能包括：&#xa;
+世界生成功能：可以修改世界生成的规则，例如可以添加新的生物群系、矿物等。&#xa;
+游戏规则功能：可以修改游戏规则的行为，例如可以改变游戏的难度、天气等。&#xa;
+物品和方块功能：可以添加新的物品和方块，修改现有的物品和方块的行为。&#xa;
+其他功能：还包括其他一些实验性功能，例如可以改变游戏的物理特性、添加新的命令等。&#xa;
+Carpet 是一款非常有趣的模组，它可以让玩家探索 Minecraft 的更多可能性。&#xa;
+以下是 Carpet 的一些亮点：&#xa;
+添加了各种实验性功能，可以让玩家探索 Minecraft 的更多可能性。&#xa;
+支持多种自定义功能，玩家可以根据自己的喜好调整 Carpet 的设置。&#xa;
+兼容性强，可以与大多数 Mod 和整合包一起使用。&#xa;
+如果你正在寻找一款可以为 Minecraft 添加各种实验性功能的模组，那么 Carpet 是一个不错的选择。&#xa;
+以下是 Carpet 的一些具体功能：&#xa;
+世界生成功能：&#xa;
+可以添加新的生物群系，例如海底城市、火山等。&#xa;
+可以添加新的矿物，例如钻石块、黄金块等。&#xa;
+游戏规则功能：&#xa;
+可以改变游戏的难度，例如可以让游戏更难或更容易。&#xa;
+可以改变天气的行为，例如可以让天气更加频繁或更加稀少。&#xa;
+物品和方块功能：&#xa;
+可以添加新的物品，例如可以飞行的能力、可以无限发射箭的能力等。&#xa;
+可以修改现有的物品和方块的行为，例如可以让钻石更耐用、让 TNT 更强大等。&#xa;
+其他功能：&#xa;
+可以改变游戏的物理特性，例如可以让玩家在水中呼吸、让物品可以穿过墙壁等。&#xa;
+可以添加新的命令，例如可以查看游戏中的各种信息、修改游戏中的各种设置等。&#xa;
+Carpet 是一款非常值得推荐的模组，它可以让玩家在玩 Minecraft 时获得更好的游戏体验。" Foreground="{DynamicResource ColorBrush2}"  Margin="4,0,0,15"/>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*" />
+                                    <ColumnDefinition Width="1*" />
+                                    <ColumnDefinition Width="1*" />  <!-- 这个按钮的宽度是其他按钮的 1.6 倍 -->
+                                </Grid.ColumnDefinitions>
+                                <local:MyButton Grid.Column="0" Margin="0,0,10,4" Height="35" ColorType="Highlight"
+                                            Text="B站视频" EventType="打开网页" EventData="https://www.bilibili.com/video/BV17r4y1T7z9/" />
+                                <local:MyButton Grid.Column="1" Margin="0,0,10,4" Height="35" ColorType="Highlight"
+                                            Text="进入mod百科" EventType="打开网页" EventData="https://www.mcmod.cn/class/2361.html"/>
+                                <local:MyButton Grid.Column="2" Margin="0,0,10,4" Height="35" ColorType="Highlight"
+                                            Text="进入下载" EventType="打开网页" EventData="https://modrinth.com/mod/carpet" />
+                                
+                            </Grid>
+            <local:MyListItem Margin="-5,0,-5,8" Logo="https://media.forgecdn.net/avatars/233/983/637075723026900986.png" Title="carpet" Info="Fabric下载" EventType="打开网页" EventData="https://www.curseforge.com/minecraft/mc-mods/carpet" Type="Clickable"/>
+            <local:MyListItem Margin="-5,0,-5,8" Logo="https://media.forgecdn.net/avatars/333/575/637466549024938560.png" Title="carpet" Info="Forge下载" EventType="打开网页" EventData="https://www.curseforge.com/minecraft/mc-mods/forgedcarpet" Type="Clickable"/>
             </StackPanel>
         </local:MyCard>
 

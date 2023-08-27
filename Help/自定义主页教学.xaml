@@ -1,0 +1,215 @@
+<local:MyHint Text="如你所见，仕洋这个B还没更新" Margin="0,0,0,8" IsWarn="False" />
+<local:MyCard Title="欢迎学习由仕洋SY提供的自定义主页教学！" Margin="0,0,0,15" CanSwap="False" IsSwaped="False">
+     <StackPanel Margin="25,40,23,15" >
+         <StackPanel Orientation="Horizontal" Height="25" Width="800">
+            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,0,0,10" FontSize="15" Text="学前须知：本篇教学仅供参考！也可以去看看龙猫的教学！" />
+         </StackPanel>
+         <StackPanel Orientation="Horizontal" Height="25" Width="800">
+            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,0,0,10" FontSize="15" Text="首先你要有一个好的编程软件，例如我正在用的：IDEA"  />
+         </StackPanel>
+         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+              <local:MyButton Text="下载" Width="200" Margin="0,0,0,10" Height="35" HorizontalAlignment="Center" ColorType="Highlight" EventType="打开网页" EventData="https://www.jetbrains.com.cn/idea/download/download-thanks.html?platform=windows" />
+          </StackPanel>
+            <TextBlock  TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,0,0,10" FontSize="15" Text="当然 一定要把此文件下载后慢慢理解 否则您大概率是听不懂的（除非您的想象力超群或者您只是好奇）" />
+         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <local:MyButton Text="下载本篇代码" Width="200" Margin="0,0,0,10" Height="35" HorizontalAlignment="Center" ColorType="Highlight" EventType="下载文件" EventData="https://raw.githubusercontent.com/shiyang0510/pcl-JC/main/Custom.xaml" />
+         </StackPanel>
+     </StackPanel>
+</local:MyCard>
+<local:MyCard Title="卡片" Margin="0,0,0,15" CanSwap="True" IsSwaped="True" >
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,0,0,10" FontSize="15" Text="卡片的代码为：local:MyCard"/>
+        <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,0,0,10" FontSize="15" Text="- Title：设置显示的标题文本" Foreground="{DynamicResource ColorBrush2}" />
+        <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,0,0,10" FontSize="15" Text="- CanSwap：这张卡片是否可以折叠，True 为是，False 为否" Foreground="{DynamicResource ColorBrush2}" />
+        <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,0,0,10" FontSize="15" Text="- IsSwaped：这张卡片是否默认折叠，要求 CanSwap 必须为 True" Foreground="{DynamicResource ColorBrush2}" />
+        <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,0,0,10" FontSize="15" Text="- Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）" Foreground="{DynamicResource ColorBrush2}" />
+        <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,0,0,10" FontSize="15" Text="- HorizontalAlignment：设置对齐方式（Left、Center、Right）（使用时，CanSwap 属性需为 False）" Foreground="{DynamicResource ColorBrush2}" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" HorizontalAlignment="Left" Text="这是龙猫在教学文件中所说的 ( 我认为说的比《自定义主页与帮助XAML文件》还要具体 ) " />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" HorizontalAlignment="Left" Text="只要根据以上提示来做卡片一般是没什么问题的" />
+        <local:MyHint Margin="0,0,0,10" Text="你可别忘了，在每行代码的右括号前加上注释“/”（因为我总是忘）"/>
+       
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="提示条" Margin="0,0,0,15" CanSwap="True" IsSwaped="True" >
+    <StackPanel Margin="25,40,23,15">
+         <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,0,0,10" FontSize="15" Text="提示条的代码为：local:MyHint"/>
+         <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,0,0,10" Foreground="{DynamicResource ColorBrush2}" FontSize="15" Text="- Text：设置显示的文本（“这个打不出来” 代表换行）"/>
+         <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,0,0,10" Foreground="{DynamicResource ColorBrush2}" FontSize="15" Text="- IsWarn：设置为 True 代表警告样式，False 代表提示样式"/>
+         <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,0,0,10" Foreground="{DynamicResource ColorBrush2}" FontSize="15" Text="- HorizontalAlignment：设置对齐方式（Left、Center、Right）"/>
+         <local:MyHint Text="这是一个示范（红色提示条）" Margin="0,0,0,8" IsWarn="True"/>
+         <local:MyHint Text="这也是一个示范（蓝色提示条）" Margin="0,0,0,10" IsWarn="False"/>
+         <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" HorizontalAlignment="Left" Text="还是内句话：只要根据以上提示来做提示条一般是没什么问题的" />
+         <local:MyHint Margin="0,0,0,10" Text="你可别忘了，在每行代码的右括号前加上注释“/”"/>
+
+         <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,0,0,10" FontSize="15" Text="你们应该可以看出来，提示条是最简单的，他只有三个命令"/>
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="按钮与文本按钮" Margin="0,0,0,15" CanSwap="True" IsSwaped="True" >
+    <StackPanel Margin="25,40,23,15">
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="按钮的代码为：local:MyButton" HorizontalAlignment="Left" />
+            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,0,0,10" Foreground="{DynamicResource ColorBrush2}" FontSize="15" Text="- Text：设置显示的文本"/>
+            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,0,0,10" Foreground="{DynamicResource ColorBrush2}" FontSize="15" Text="- Padding：设置内边距，格式与 Margin 一致"/>
+            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,0,0,10" Foreground="{DynamicResource ColorBrush2}" FontSize="15" Text="- ColorType：设置颜色主题（Highlight 为当前启动器的主题颜色，Red 为红色，默认为黑色）"/>
+            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,0,0,10" Foreground="{DynamicResource ColorBrush2}" FontSize="15" Text="- EventType、EventData：触发特定事件"/>
+            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,0,0,10" Foreground="{DynamicResource ColorBrush2}" FontSize="15" Text="- HorizontalAlignment：设置对齐方式（Left、Center、Right）"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="欸欸欸，你可别被迷惑了，文字想要变成pcl的主题色可不是用“ColorType”而是用“Foreground”，并且里面用的是“{DynamicResource ColorBrush2}”这段代码 " HorizontalAlignment="Left" />
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="以下是一个演示：" HorizontalAlignment="Left" />
+            <local:MyButton Margin="0,0,0,10" ColorType="Highlight" EventType="弹出窗口" EventData="这是标题|这是正文" Text="按钮" Width="300" Height="35"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="文本按钮的代码为：local:MyTextButton" HorizontalAlignment="Left" />
+            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,0,0,10" Foreground="{DynamicResource ColorBrush2}" FontSize="15" Text="- Text：设置显示的文本"/>
+            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,0,0,10" Foreground="{DynamicResource ColorBrush2}" FontSize="15" Text="- EventType、EventData：触发特定事件"/>
+            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,0,0,10" Foreground="{DynamicResource ColorBrush2}" FontSize="15" Text="- Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）"/>
+            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,0,0,10" Foreground="{DynamicResource ColorBrush2}" FontSize="15" Text="- HorizontalAlignment：设置对齐方式（Left、Center、Right）"/>
+            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,0,0,10"  FontSize="15" Text="说实话真的很简单，几乎就是和按钮没什么区别，只是缺少了一个“Padding”控件"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="以下是一个演示：" HorizontalAlignment="Left" />
+            <local:MyTextButton Foreground="{DynamicResource ColorBrush2}" EventType="打开网页" EventData="https://space.bilibili.com/1151723944" Text="文本按钮" HorizontalAlignment="Center" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="纯文本" Margin="0,0,0,15" CanSwap="True" IsSwaped="True" >
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="纯文本的代码为：TextBlock" HorizontalAlignment="Left" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- Text：设置显示的文本（如果要使用引号等特殊字符，自行百度 XAML 转义）" HorizontalAlignment="Left" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- TextWrapping：开启自动换行" HorizontalAlignment="Left" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- FontWeight：设置为 Bold 时，文字加粗" HorizontalAlignment="Left" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- FontSize：设置字号" HorizontalAlignment="Left" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）" HorizontalAlignment="Left" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- HorizontalAlignment：设置对齐方式（Left、Center、Right）" HorizontalAlignment="Left" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="这就是一个文本"/>
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="列表项" Margin="0,0,0,15" CanSwap="True" IsSwaped="True" >
+    <StackPanel Margin="25,40,23,15">
+         <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="我先解释一下列表项的作用，主页的网站那一栏，还有仕洋的主页，自定义主页教程都是列表项哦！" HorizontalAlignment="Left" />
+         <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="列表项的代码为：local:MyListItem" HorizontalAlignment="Left" />
+         <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- Logo：列表项的图标（所指定的可以是链接也可以是文件路径）" HorizontalAlignment="Left" />
+         <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- Title：列表项的大标题" HorizontalAlignment="Left" />
+         <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- Info：列表项的详细信息，它将会以灰色显示在大标题下方" HorizontalAlignment="Left" />
+         <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- Type：若留空仅单纯展示信息，设置为 Clickable 触发相应活动" HorizontalAlignment="Left" />
+         <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="但是哦，我要讲一下，这个logo呢如果你想上传自己的，建议把他上传到Git用链接，因为这个地方龙猫讲的并不详细。导致联网更新好像用不了" HorizontalAlignment="Left" />
+         <local:MyListItem Margin="-5,0,-5,8" Logo="https://www.baidu.com/favicon.ico"
+         Title="百度" Info="百度官网" EventType="打开网页" EventData="https://www.baidu.com/" Type="Clickable"/>
+         <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="这上面的就是一个示范" HorizontalAlignment="Left" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="图片" Margin="0,0,0,15" CanSwap="True" IsSwaped="True" >
+    <StackPanel Margin="25,40,23,15">
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="可算是讲到图片了，这里我要好好说说，当时就光图片就卡了我很久。" HorizontalAlignment="Left" />
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="列表项的代码为：Image" HorizontalAlignment="Left" Foreground="{DynamicResource ColorBrush2}" />
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="- Source：要显示的图片的网址" HorizontalAlignment="Left" Foreground="{DynamicResource ColorBrush2}" />
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="- Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）" Foreground="{DynamicResource ColorBrush2}" HorizontalAlignment="Left" />
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="- HorizontalAlignment：设置对齐方式（Left、Center、Right）" Foreground="{DynamicResource ColorBrush2}" HorizontalAlignment="Left" />
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="下面就是一个演示（如果您没有看到，那就打开一下加速器）" HorizontalAlignment="Left" />
+    <Image Source="https://github.com/shiyang0510/pcl2-sy/blob/main/b.png?raw=true" HorizontalAlignment="Center"/>
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="全局控件" Margin="0,0,0,15" CanSwap="True" IsSwaped="True" >
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="这就很简单啦，好好看" HorizontalAlignment="Left" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="- Width、Height：设置宽度与高度" HorizontalAlignment="Left" Foreground="{DynamicResource ColorBrush2}" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- ToolTip：设置鼠标指向时的提示文本" HorizontalAlignment="Left" ToolTip="就像这样"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- Background：调整背景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）" HorizontalAlignment="Left" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- Margin：调整外边距（格式为 左,上,右,下。例如 Margin=”0,0,0,2“ 即为 2 单位的下边距）" HorizontalAlignment="Left" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="学后语" Margin="0,0,0,15" CanSwap="True" IsSwaped="True" >
+    <StackPanel Margin="25,40,23,15">
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="看到这里相信你也差不多懂了一些啦，赶紧去试试吧！可能有些地方讲的不到位，大家可以去gitee反馈哦！" HorizontalAlignment="Left" />
+    <local:MyButton Width="200"  HorizontalAlignment="Center" Margin="0,4,10,8" Height="35" Padding="13,0,13,0" ColorType="Highlight"
+    Text="反馈至gitee" EventType="打开网页" EventData="https://gitee.com/csy0519/pcl2-GK-SY/issues" ToolTip="快快反馈吧！" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="进阶学习" Margin="0,0,0,15" CanSwap="False" >
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="以下为进阶学习，请自行学习" HorizontalAlignment="Left" />
+        <local:MyHint Text="以下内容为仕洋原创，如有不准确/错词等问题请联系仕洋！" IsWarn="True"/>
+        <local:MyButton Text="上传错误报告" Margin="0,8,0,10" ColorType="Highlight" EventType="打开网页" EventData="https://gitee.com/csy0519/pcl2-GK-SY/issues" Width="200" Height="35" HorizontalAlignment="Right"/>
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="第一章：联网更新跳转自定义帮助页面" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Text="请注意！此章较为困难！请结合源码观看理解！（以文章的形式来展现）"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,8,0,0" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+                     Text="      自定义跳转，是由 MyComboBox 实现的下拉菜单，并且由 MyComboBoxItem 实现菜单功能。主要是数据绑定通过WPF库的数据绑定，即可实现自定义跳转功能。简单来说，就是在同一目录下你选择的选型名称。有对应的名字相同的JSON和XAML文件，即可实现跳转。如果实在不懂，你就直接找仕洋问。没有一点毛病（" />
+        <local:MyButton Margin="0,8,0,0" Text="反馈地址" Width="200" Height="35" ColorType="Highlight" HorizontalAlignment="Right" EventData="https://gitee.com/csy0519/pcl2-GK-SY/issues" EventType="打开网页"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="以下是一个演示：" HorizontalAlignment="Left" />
+        <local:MyComboBox  Height="30" SelectedIndex="0">
+            <local:MyComboBoxItem Content="这是一个选项" />
+            <local:MyComboBoxItem Content="这是第二个" />
+        </local:MyComboBox>
+        <TextBlock TextWrapping="Wrap" Margin="0,8,0,10" FontSize="15" Text="同时也可以搭配数据绑定食用，就会有以下效果：" HorizontalAlignment="Left" />
+        <Grid>
+                  <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="100" />
+                  </Grid.ColumnDefinitions>
+                  <local:MyComboBox x:Name="jumpbox" Height="30" SelectedIndex="0">
+                    <local:MyComboBoxItem Content="学习专区" />
+                    <local:MyComboBoxItem Content="mod介绍" />
+                    <local:MyComboBoxItem Content="自定义主页教学"/>
+                    <local:MyComboBoxItem Content="SYC主页更新日志"/>
+                  </local:MyComboBox>
+                  <local:MyButton HorizontalAlignment="Center" Width="80" Grid.Column="1" Text="跳转→" EventType="打开帮助" EventData="{Binding Path=Text,ElementName=jumpbox,StringFormat=https://ghproxy.com/raw.githubusercontent.com/shiyang0510/pcl-KZ/main/Help/{0}.json}" />
+                </Grid>
+        
+    </StackPanel>
+</local:MyCard>
+
+
+
+<!--
+
+全部通用的属性：
+ - Width、Height：设置宽度与高度
+ - ToolTip：设置鼠标指向时的提示文本
+ - Background：调整背景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - Margin：调整外边距（格式为 左,上,右,下。例如 Margin="0,0,0,2" 即为 2 单位的下边距）
+
+TextBlock（纯文本）：+
+ - Text：设置显示的文本（如果要使用引号等特殊字符，自行百度 XAML 转义）
+ - TextWrapping：开启自动换行
+ - FontSize：设置字号
+ - FontWeight：设置为 Bold 时，文字加粗
+ - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+Image（图片）：
+ - Source：要显示的图片的网址
+ - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+local:MyCard（卡片）：+
+ - Title：设置显示的标题文本
+ - CanSwap：这张卡片是否可以折叠，True 为是，False 为否
+ - IsSwaped：这张卡片是否默认折叠，要求 CanSwap 必须为 True
+ - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）（使用时，CanSwap 属性需为 False）
+
+local:MyHint（提示条）：+
+ - Text：设置显示的文本（&#xA; 代表换行）
+ - IsWarn：设置为 True 代表警告样式，False 代表提示样式
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+local:MyButton（按钮）：+
+ - Text：设置显示的文本
+ - Padding：设置内边距，格式与 Margin 一致
+ - ColorType：设置颜色主题（Highlight 为当前启动器的主题颜色，Red 为红色，默认为黑色）
+ - EventType、EventData：触发特定事件
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+local:MyTextButton（文本按钮）：+
+ - Text：设置显示的文本
+ - EventType、EventData：触发特定事件
+ - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+local:MyListItem（列表项）：+
+ - Logo：列表项的图标（所指定的可以是链接也可以是文件路径）
+ - Title：列表项的大标题
+ - Info：列表项的详细信息，它将会以灰色显示在大标题下方
+ - Type：若留空仅单纯展示信息，设置为 Clickable 触发相应活动
+
+-->
+
+
+
+

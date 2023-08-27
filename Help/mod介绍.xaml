@@ -1,0 +1,75 @@
+﻿        <local:MyCard Title="机械动力(Create)介绍" CanSwap="True" IsSwaped="True" Margin="0,0,0,15"   >
+             <StackPanel Margin="25,40,23,15">
+                    <Image Source="https://i2.mcmod.cn/editor/upload/20220904/1662262119_216326_xMLH.webp" Margin="0,0,0,15"  />
+                    <TextBlock TextWrapping="Wrap" Grid.Column="1" FontSize="16" Text="    机械动力(Create)是一个围绕着建筑、装饰和机械的新兴模组，所添加的元素旨在为玩家提供全新的建筑与自动化体验，并尽可能多地为玩家预留自定义空间。在机器与能源方面，模组做出了极大的创新。机器不再由传统科技模组中乏味的电线供能，而是需要玩家搭建机械传动系统驱动。加工过程也不再是枯燥的GUI里等待进度条—遍遍被填满，机器可以直接与世界中的物品交互，并且加工时有着精美的动画。模组还具有独创的动态结构系统，可以使世界中的方块结构作为整体运动，进行各种自动化，并且有着真实的物理效果。" Foreground="{DynamicResource ColorBrush2}"  Margin="4,0,0,15"/>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*" />
+                                    <ColumnDefinition Width="1*" /> <!-- 这个按钮的宽度是其他按钮的 1.6 倍 -->
+                                    <ColumnDefinition Width="1*" /> <!-- 如果不打 *，则会占用固定的宽度 -->
+                                </Grid.ColumnDefinitions>
+                                <local:MyButton Grid.Column="0" Margin="0,0,10,4" Height="35" ColorType="Highlight"
+                                            Text="B站视频" EventType="打开网页" EventData="https://www.bilibili.com/video/av9798281" />
+                                <local:MyButton Grid.Column="1" Margin="0,0,10,4" Height="35" ColorType="Highlight"
+                                            Text="进入mod百科" EventType="打开网页" EventData="https://www.mcmod.cn/class/2021.html"/>
+                                <local:MyButton Grid.Column="2" Margin="0,0,10,4" Height="35" ColorType="Highlight"
+                                            Text="进入下载" EventType="打开网页" EventData="https://www.curseforge.com/minecraft/mc-mods/create-fabric" />
+                            </Grid>
+            <local:MyListItem Margin="-5,0,-5,8" Logo="https://media.forgecdn.net/avatars/548/377/637883834427445340.png" Title="Create" Info="机械动力Fabric下载" EventType="打开网页" EventData="https://www.curseforge.com/minecraft/mc-mods/create-fabric" Type="Clickable"/>
+            <local:MyListItem Margin="-5,0,-5,8" Logo="https://media.forgecdn.net/avatars/393/435/637588742363737916.png" Title="Create" Info="机械动力Forge下载" EventType="打开网页" EventData="https://www.curseforge.com/minecraft/mc-mods/create/files/4626108" Type="Clickable"/>
+            </StackPanel>
+        </local:MyCard>
+
+<!-- 
+
+全部通用的属性：
+ - Width、Height：设置宽度与高度
+ - ToolTip：设置鼠标指向时的提示文本
+ - Background：调整背景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - Margin：调整外边距（格式为 左,上,右,下。例如 Margin="0,0,0,2" 即为 2 单位的下边距）
+
+TextBlock（纯文本）：
+ - Text：设置显示的文本（如果要使用引号等特殊字符，自行百度 XAML 转义）
+ - TextWrapping：开启自动换行
+ - FontSize：设置字号
+ - FontWeight：设置为 Bold 时，文字加粗
+ - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+Image（图片）：
+ - Source：要显示的图片的网址
+ - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+local:MyCard（卡片）：
+ - Title：设置显示的标题文本
+ - CanSwap：这张卡片是否可以折叠，True 为是，False 为否
+ - IsSwaped：这张卡片是否默认折叠，要求 CanSwap 必须为 True
+ - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）（使用时，CanSwap 属性需为 False）
+
+local:MyHint（提示条）：
+ - Text：设置显示的文本（&#xA; 代表换行）
+ - IsWarn：设置为 True 代表警告样式，False 代表提示样式
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+local:MyButton（按钮）：
+ - Text：设置显示的文本
+ - Padding：设置内边距，格式与 Margin 一致
+ - ColorType：设置颜色主题（Highlight 为当前启动器的主题颜色，Red 为红色，默认为黑色）
+ - EventType、EventData：触发特定事件
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+local:MyTextButton（文本按钮）：
+ - Text：设置显示的文本
+ - EventType、EventData：触发特定事件
+ - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+local:MyListItem（列表项）：
+ - Logo：列表项的图标（所指定的可以是链接也可以是文件路径）
+ - Title：列表项的大标题
+ - Info：列表项的详细信息，它将会以灰色显示在大标题下方
+ - Type：若留空仅单纯展示信息，设置为 Clickable 触发相应活动
+
+-->

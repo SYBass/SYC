@@ -1,4 +1,59 @@
-﻿<local:MyCard Title="1.3.8 | 快照版更新" CanSwap="True" IsSwaped="False">
+﻿<local:MyCard Title="1.3.9 | 正式版更新" CanSwap="True" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15" >
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBlock Text="SYC 1.3.9 | 正式版更新" FontSize="20" FontWeight="Bold" Foreground="{DynamicResource ColorBrush2}" Margin="0,0,0,4"/>
+             </StackPanel>
+             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBlock Text="· 新增功能" FontSize="18" FontWeight="Bold" Foreground="{DynamicResource ColorBrush2}" Margin="0,0,0,4"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBlock Text="同步快照版添加下拉菜单跳转。此功能我会在我本人编写的自定义主页教学中详细解释，并且会更新更多关于进阶版自定义主页的内容请注意查看哦~
+额，关于快照版的回声洞，还有图片按钮真不是我不想更……（龙猫没更新正式版我要考虑兼容性）" FontSize="15" FontWeight="Bold"  Margin="0,0,0,4"/>
+            </StackPanel>
+             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBlock Text="· 关于预设" FontSize="18" FontWeight="Bold" Foreground="{DynamicResource ColorBrush2}" Margin="0,0,0,4"/>
+            </StackPanel>
+                <TextBlock TextWrapping="Wrap" Text="这个问题问得好，预设问题我向龙猫投稿了但是需要服务器（或者数据储存）但因为个人能力有限，所以要暂时鸽一鸽啦（咕咕咕）这个也不是不会更……" FontSize="15" FontWeight="Bold"  Margin="0,0,0,4"/>
+             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBlock Text="· 关于更多页面" FontSize="18" FontWeight="Bold" Foreground="{DynamicResource ColorBrush2}" Margin="0,0,0,4"/>
+            </StackPanel>
+                <TextBlock TextWrapping="Wrap" Text="emmm怎么说呢。它的原理很简单。就是数据绑定+下拉菜单后期我也会更新至自定义主页教学中。敬请期待……" FontSize="15" FontWeight="Bold"  Margin="0,0,0,4"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBlock Text="· 结束语" FontSize="18" FontWeight="Bold" Foreground="{DynamicResource ColorBrush2}" Margin="0,0,0,4"/>
+            </StackPanel>
+                <TextBlock TextWrapping="Wrap" Text="ok！那么以上就是SYC 1.3.9正式版的更新啦！哦对了，如果你也想加入SYC的开发者当中可以：&#xa;爱发电/B站/邮箱&#xa;
+来私信仕洋进入SYC开发者群聊中！" FontSize="15" FontWeight="Bold"  Margin="0,0,0,4"/>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
+            <TextBlock Text="爱发电:  " FontSize="15" Foreground="{DynamicResource ColorBrush2}" FontWeight="Bold" />
+            <local:MyTextButton Text="https://afdian.net/a/sy0519" EventType="打开网页" EventData="https://afdian.net/a/sy0519" ToolTip="点击跳转页面" Margin="0,2,0,0"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
+            <TextBlock Text="B站:  " FontSize="15" Foreground="{DynamicResource ColorBrush2}" FontWeight="Bold" />
+            <local:MyTextButton Text="https://space.bilibili.com/1151723944" EventType="打开网页" EventData="https://space.bilibili.com/1151723944" ToolTip="点击跳转页面" Margin="0,2,0,0"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
+            <TextBlock Text="邮箱:  " FontSize="15" Foreground="{DynamicResource ColorBrush2}" FontWeight="Bold" />
+            <local:MyTextButton Text="2473573684@qq.com" EventType="复制文本" EventData="2473573684@qq.com" ToolTip="点击跳转页面" Margin="0,2,0,0"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
+            <TextBlock Text="开源链接:  " FontSize="15" Foreground="{DynamicResource ColorBrush2}" FontWeight="Bold" />
+            <local:MyTextButton Text="https://github.com/shiyang0510/pcl2-GK-SY" EventType="打开页面" EventData="https://github.com/shiyang0510/pcl2-GK-SY" ToolTip="点击跳转页面" Margin="0,2,0,0"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
+            <TextBlock Text="或者:  " FontSize="15" Foreground="{DynamicResource ColorBrush2}" FontWeight="Bold" />
+            <local:MyTextButton Text="https://gitee.com/csy0519/pcl2-GK-SY" EventType="打开页面" EventData="https://gitee.com/csy0519/pcl2-GK-SY" ToolTip="点击跳转页面" Margin="0,2,0,0"/>
+            </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
+          <TextBlock Text="反馈地址:  " FontSize="15" Foreground="{DynamicResource ColorBrush2}" FontWeight="Bold" />
+          <local:MyTextButton Text="https://github.com/shiyang0510/pcl2-GK-SY/issues" EventType="打开网页" EventData="https://github.com/shiyang0510/pcl2-GK-SY/issues" ToolTip="点击跳转页面" Margin="0,2,0,0"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBlock Text="· 预告" FontSize="18" FontWeight="Bold" Foreground="{DynamicResource ColorBrush2}" Margin="0,0,0,4"/>
+            </StackPanel>
+                <TextBlock TextWrapping="Wrap" Text="下次更新就是1.4.1（正式版）了&#xa;我会加上赞助者名单，其他功能尽情期待……" FontSize="15" FontWeight="Bold"  Margin="0,0,0,4"/>
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="1.3.8 | 快照版更新" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15" >
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
                 <TextBlock Text="SYC 1.3.8 | 快照版更新" FontSize="20" FontWeight="Bold" Foreground="{DynamicResource ColorBrush2}" Margin="0,0,0,4"/>

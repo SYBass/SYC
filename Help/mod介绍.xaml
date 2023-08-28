@@ -9,7 +9,7 @@
                                     <ColumnDefinition Width="1*" /> <!-- 如果不打 *，则会占用固定的宽度 -->
                                 </Grid.ColumnDefinitions>
                                 <local:MyButton Grid.Column="0" Margin="0,0,10,4" Height="35" ColorType="Highlight"
-                                            Text="B站视频" EventType="打开网页" EventData="https://www.bilibili.com/video/av9798281" />
+                                            Text="B站视频" EventType="打开网页" EventData="https://www.bilibili.com/video/BV1rF411E7vZ/" />
                                 <local:MyButton Grid.Column="1" Margin="0,0,10,4" Height="35" ColorType="Highlight"
                                             Text="进入mod百科" EventType="打开网页" EventData="https://www.mcmod.cn/class/2021.html"/>
                                 <local:MyButton Grid.Column="2" Margin="0,0,10,4" Height="35" ColorType="Highlight"

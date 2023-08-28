@@ -1,4 +1,4 @@
-<local:MyHint Text="如你所见，仕洋这个B还没更新" Margin="0,0,0,8" IsWarn="False" />
+<local:MyHint Text="编写者：仕洋不是羊   最后更新：2023/8/28" Margin="0,0,0,8" IsWarn="False" />
 <local:MyCard Title="欢迎学习由仕洋SY提供的自定义主页教学！" Margin="0,0,0,15" CanSwap="False" IsSwaped="False">
      <StackPanel Margin="25,40,23,15" >
          <StackPanel Orientation="Horizontal" Height="25" Width="800">
@@ -125,7 +125,7 @@
         <local:MyButton Text="上传错误报告" Margin="0,8,0,10" ColorType="Highlight" EventType="打开网页" EventData="https://gitee.com/csy0519/pcl2-GK-SY/issues" Width="200" Height="35" HorizontalAlignment="Right"/>
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="第一章：联网更新跳转自定义帮助页面" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="第一章：下拉菜单+WPF数据绑定" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <local:MyHint Text="请注意！此章较为困难！请结合源码观看理解！（以文章的形式来展现）"/>
         <TextBlock TextWrapping="Wrap" Margin="0,8,0,0" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
@@ -153,7 +153,50 @@
         
     </StackPanel>
 </local:MyCard>
-
+<local:MyCard Title="第二章：联网更新" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,8" Text="联网更新顾名思义就是：用网络进行下载并展现在自定义主页中。你可以上传至GitHub/gitee，当然你也可以上传至你的网站，这样就可以用啦！" FontSize="15" Foreground="{DynamicResource ColorBrush2}" TextWrapping="Wrap" />
+        <TextBlock Margin="0,0,0,8" Text="GitHub教程：" FontSize="15" Foreground="{DynamicResource ColorBrush2}" TextWrapping="Wrap"/>
+        <TextBlock Margin="0,0,0,8" Text="【打开项目】 - 【点击Custom.xaml】 - 【点击rew】 - 【复制链接到联网更新】" FontSize="15" Foreground="{DynamicResource ColorBrush2}" TextWrapping="Wrap"/>
+        <TextBlock Margin="0,0,0,8" Text="Gtiee教程：" FontSize="15" Foreground="{DynamicResource ColorBrush2}" TextWrapping="Wrap"/>
+        <TextBlock Margin="0,0,0,8" Text="【打开项目】 - 【点击Custom.xaml】 - 【点击原始数据】 - 【复制链接到联网更新】" FontSize="15" Foreground="{DynamicResource ColorBrush2}" TextWrapping="Wrap"/>
+        <TextBlock Margin="0,0,0,8" Text="如果你是有了GitHub仓库想更快怎么办？直接从项目拉取到gitee" FontSize="15" Foreground="{DynamicResource ColorBrush2}" TextWrapping="Wrap"/>
+        <local:MyHint Text="有网站的我就不说了(懒)" Margin="0,0,0,8" IsWarn="False"/>
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Margin="0,0,0,15" Title="第三章：文本输入框" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,8" Text="接下来教大家MyTextBox控件（文本输入框）" FontSize="15" Foreground="{DynamicResource ColorBrush2}" TextWrapping="Wrap"/>
+        <local:MyTextBox Margin="0,0,10,8" Width="300" />
+        <TextBlock Margin="0,0,0,15" Text="接下来看它可以实现的功能：" TextWrapping="Wrap"/>
+        <local:MyHint IsWarn="False" Text="链接必须为以http://或https://开头的网址，部分网址可能无法下载（如百度网盘）" />
+            <Grid>
+                <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="100" />
+                </Grid.ColumnDefinitions>
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Text="下载链接" Margin="4,4,18,0" />
+            <local:MyTextBox x:Name="TextSearchName" Grid.Column="0" Margin="0,4,0,0"/>
+            <local:MyButton  EventType="下载文件" EventData="{Binding ElementName=web,Path=Text}" Text="开始下载" Margin="0,4,10,0" Width="80" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"  Grid.Column="1"/>
+            </Grid>
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Margin="0,0,0,15" Title="第四章：矢量图按钮" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,8" Text="啥是矢量图按钮？简单来说，就是带有图片的按钮（不含文字）相信细心的同学已经发现了。我的主页快捷栏就是矢量图按钮。下面是一个示例：" FontSize="15" Foreground="{DynamicResource ColorBrush2}" TextWrapping="Wrap"/>
+        
+        <local:MyButton Margin="0,10,0,10" Width="15" Height="15" HorizontalAlignment="Center" ToolTip="刷新主页" EventType="刷新主页">
+                     		<Path Fill="{DynamicResource ColorBrush5}" Stretch="Fill" Width="15" Height="15">
+                     			<Path.Data>
+                     				<PathGeometry FillRule="Nonzero" Figures="M256.455,8C322.724,8.119,382.892,34.233,427.314,76.685L463.029,40.97C478.149,25.851,504,36.559,504,57.941L504,192C504,205.255,493.255,216,480,216L345.941,216C324.559,216,313.851,190.149,328.97,175.029L370.72,133.279C339.856,104.38 299.919,88.372 257.49,88.006 165.092,87.208 87.207,161.983 88.0059999999999,257.448 88.764,348.009 162.184,424 256,424 297.127,424 335.997,409.322 366.629,382.444 371.372,378.283 378.535,378.536 382.997,382.997L422.659,422.659C427.531,427.531 427.29,435.474 422.177,440.092 378.202,479.813 319.926,504 256,504 119.034,504 8.001,392.967 8,256.002 7.999,119.193 119.646,7.755 256.455,8z"/>
+                     			</Path.Data>
+                     		</Path>
+        </local:MyButton>
+        <TextBlock Margin="0,0,0,8" Text="上面这个" FontSize="12" Foreground="#c3c3c3" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+        <TextBlock Margin="0,0,0,8" Text="ok！那么我们已经看完了效果了，这种到底怎么做？其实这里我们用到了‘path’ 控件 （其他的看源码）其中的Figures就可以通过SVG的path来完成矢量图按钮！ " TextWrapping="Wrap" FontSize="15"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="具体的......我真不好讲，大家按照源码来写吧..." HorizontalAlignment="Left" />
+    </StackPanel>
+</local:MyCard>
 
 
 <!--

@@ -1,0 +1,172 @@
+﻿<local:MyCard Title="学习专区" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15" >
+        <local:MyHint Text="好好学习，天天向上！" Margin="0,0,0,8" IsWarn="False" />
+             <local:MyListItem Margin="-5,0,-5,8" Logo="https://www.baidu.com/favicon.ico"
+             Title="百度" Info="百度官网" EventType="打开网页" EventData="https://www.baidu.com/" Type="Clickable"/>
+
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="20" Text="满江红   宋/岳飞" />
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+                         Text="　　怒发冲冠，凭阑处、潇潇雨歇。抬望眼，仰天长啸，壮怀激烈。三十功名尘与土，八千里路云和月。莫等闲，白了少年头，空悲切。
+                               　　靖康耻，犹未雪；臣子恨，何时灭？驾长车，踏破贺兰山缺。壮志饥餐胡虏肉，笑谈渴饮匈奴血。待从头，收拾旧山河，朝天阙。" />
+            <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="0,4,10,8" Height="35" Padding="13,0,13,0" ColorType="Highlight"
+                         Text="本篇解析" EventType="打开网页" EventData="https://www.gushiwen.cn/GuShiWen_1095efc612.aspx"/>
+
+             <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="20" Text="蜀道难   唐/李白" />
+             <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+             Text="      噫吁嚱，危乎高哉！蜀道之难，难于上青天！蚕丛及鱼凫，开国何茫然！尔来四万八千岁，不与秦塞通人烟。西当太白有鸟道，可以横绝峨眉巅。地崩山摧壮士死，然后天梯石栈相钩连。上有六龙回日之高标，下有冲波逆折之回川。黄鹤之飞尚不得过，猿猱欲度愁攀援。青泥何盘盘，百步九折萦岩峦。扪参历井仰胁息，以手抚膺坐长叹。
+                        问君西游何时还？畏途巉岩不可攀。但见悲鸟号古木，雄飞雌从绕林间。又闻子规啼夜月，愁空山。蜀道之难，难于上青天，使人听此凋朱颜！连峰去天不盈尺，枯松倒挂倚绝壁。飞湍瀑流争喧豗，砯崖转石万壑雷。其险也如此，嗟尔远道之人胡为乎来哉！
+                        剑阁峥嵘而崔嵬，一夫当关，万夫莫开。所守或匪亲，化为狼与豺。朝避猛虎，夕避长蛇；磨牙吮血，杀人如麻。锦城虽云乐，不如早还家。蜀道之难，难于上青天，侧身西望长咨嗟！" />
+             <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="0,4,10,8" Height="35" Padding="13,0,13,0" ColorType="Highlight"
+             Text="本篇解析" EventType="打开网页" EventData="https://m.shicimingju.com/chaxun/list/26317.html"/>
+
+             <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="20" Text="桃花源记   东晋/陶渊明" />
+             <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+             Text="      晋太元中，武陵人捕鱼为业。缘溪行，忘路之远近。忽逢桃花林，夹岸数百步，中无杂树，芳草鲜美，落英缤纷。渔人甚异之，复前行，欲穷其林。
+
+                   林尽水源，便得一山，山有小口，仿佛若有光。便舍船，从口入。初极狭，才通人。复行数十步，豁然开朗。土地平旷，屋舍俨然，有良田、美池、桑竹之属。阡陌交通，鸡犬相闻。其中往来种作，男女衣着，悉如外人。黄发垂髫，并怡然自乐。
+
+                   见渔人，乃大惊，问所从来。具答之。便要还家，设酒杀鸡作食。村中闻有此人，咸来问讯。自云先世避秦时乱，率妻子邑人来此绝境，不复出焉，遂与外人间隔。问今是何世，乃不知有汉，无论魏晋。此人一一为具言所闻，皆叹惋。余人各复延至其家，皆出酒食。停数日，辞去。此中人语云：“不足为外人道也。”
+
+                   既出，得其船，便扶向路，处处志之。及郡下，诣太守，说如此。太守即遣人随其往，寻向所志，遂迷，不复得路。
+
+                   南阳刘子骥，高尚士也，闻之，欣然规往。未果，寻病终，后遂无问津者。" />
+             <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="0,4,10,8" Height="35" Padding="13,0,13,0" ColorType="Highlight"
+             Text="本篇解析" EventType="打开网页" EventData="https://so.gushiwen.cn/shangxi_2178.aspx"/>
+
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="20" Text="将进酒   唐/李白" />
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+                         Text="君不见，黄河之水天上来，奔流到海不复回。
+
+                                     君不见，高堂明镜悲白发，朝如青丝暮成雪。
+
+                                     人生得意须尽欢，莫使金樽空对月。
+
+                                     天生我材必有用，千金散尽还复来。
+
+                                     烹羊宰牛且为乐，会须一饮三百杯。
+
+                                     岑夫子，丹丘生，将进酒，杯莫停。
+
+                                     与君歌一曲，请君为我倾耳听。
+
+                                     钟鼓馔玉不足贵，但愿长醉不愿醒。
+
+                                     古来圣贤皆寂寞，惟有饮者留其名。
+
+                                     陈王昔时宴平乐，斗酒十千恣欢谑。
+
+                                     主人何为言少钱，径须沽取对君酌。
+
+                                     五花马，千金裘，呼儿将出换美酒，与尔同销万古愁。" />
+            <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="0,4,10,8" Height="35" Padding="13,0,13,0" ColorType="Highlight"
+                         Text="本篇解析" EventType="打开网页" EventData="https://so.gushiwen.cn/shangxi_1217.aspx"/>
+
+
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="20" Text="木兰辞   南北朝/佚名" />
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+                         Text="唧唧复唧唧，木兰当户织。不闻机杼声，唯闻女叹息。
+
+                               问女何所思，问女何所忆。女亦无所思，女亦无所忆。昨夜见军帖，可汗大点兵，军书十二卷，卷卷有爷名。阿爷无大儿，木兰无长兄，愿为市鞍马，从此替爷征。
+
+                               东市买骏马，西市买鞍鞯，南市买辔头，北市买长鞭。旦辞爷娘去，暮宿黄河边，不闻爷娘唤女声，但闻黄河流水鸣溅溅。旦辞黄河去，暮至黑山头，不闻爷娘唤女声，但闻燕山胡骑鸣啾啾。
+
+                               万里赴戎机，关山度若飞。朔气传金柝，寒光照铁衣。将军百战死，壮士十年归。
+
+                               归来见天子，天子坐明堂。策勋十二转，赏赐百千强。可汗问所欲，木兰不用尚书郎，愿驰千里足，送儿还故乡。
+
+                               爷娘闻女来，出郭相扶将；阿姊闻妹来，当户理红妆；小弟闻姊来，磨刀霍霍向猪羊。开我东阁门，坐我西阁床，脱我战时袍，著我旧时裳。当窗理云鬓，对镜帖花黄。出门看火伴，火伴皆惊忙：同行十二年，不知木兰是女郎。
+
+                               雄兔脚扑朔，雌兔眼迷离；双兔傍地走，安能辨我是雄雌？" />
+            <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="0,4,10,8" Height="35" Padding="13,0,13,0" ColorType="Highlight"
+                         Text="本篇解析" EventType="打开网页" EventData="https://so.gushiwen.cn/shiwenv_2d6b0c83a500.aspx"/>
+
+
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="20" Text="有的人   现代/臧克家" />
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="#585858" Text="(纪念鲁迅逝世十三周年有感)" FontWeight="Bold"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="#585858"
+                         Text="有的人活着
+                               他已经死了；
+                               有的人死了
+                               他还活着。
+                               有的人
+                               骑在人民头上：“呵，我多伟大！”
+                               有的人
+                               俯下身子给人民当牛马。
+                               有的人
+                               把名字刻入石头，想“不朽”；
+                               有的人
+                               情愿作野草，等着地下的火烧。
+                               有的人
+                               他活着别人就不能活；
+                               有的人
+                               他活着为了多数人更好地活。
+                               骑在人民头上的
+                               人民把他摔垮；
+                               给人民作牛马的
+                               人民永远记住他！
+                               把名字刻入石头的
+                               名字比尸首烂得更早；
+                               只要春风吹到的地方
+                               到处是青青的野草。
+                               他活着别人就不能活的人，
+                               他的下场可以看到；
+                               他活着为了多数人更好地活着的人，
+                               群众把他抬举得很高，很高。" />
+            <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="0,4,10,8" Height="35" Padding="13,0,13,0" ColorType="Highlight"
+                         Text="本篇解析" EventType="打开网页" EventData="https://www.yuwenmi.com/lizhi/shige/550368.html"/>
+    </StackPanel>
+</local:MyCard>
+
+<!-- 
+
+全部通用的属性：
+ - Width、Height：设置宽度与高度
+ - ToolTip：设置鼠标指向时的提示文本
+ - Background：调整背景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - Margin：调整外边距（格式为 左,上,右,下。例如 Margin="0,0,0,2" 即为 2 单位的下边距）
+
+TextBlock（纯文本）：
+ - Text：设置显示的文本（如果要使用引号等特殊字符，自行百度 XAML 转义）
+ - TextWrapping：开启自动换行
+ - FontSize：设置字号
+ - FontWeight：设置为 Bold 时，文字加粗
+ - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+Image（图片）：
+ - Source：要显示的图片的网址
+ - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+local:MyCard（卡片）：
+ - Title：设置显示的标题文本
+ - CanSwap：这张卡片是否可以折叠，True 为是，False 为否
+ - IsSwaped：这张卡片是否默认折叠，要求 CanSwap 必须为 True
+ - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）（使用时，CanSwap 属性需为 False）
+
+local:MyHint（提示条）：
+ - Text：设置显示的文本（&#xA; 代表换行）
+ - IsWarn：设置为 True 代表警告样式，False 代表提示样式
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+local:MyButton（按钮）：
+ - Text：设置显示的文本
+ - Padding：设置内边距，格式与 Margin 一致
+ - ColorType：设置颜色主题（Highlight 为当前启动器的主题颜色，Red 为红色，默认为黑色）
+ - EventType、EventData：触发特定事件
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+local:MyTextButton（文本按钮）：
+ - Text：设置显示的文本
+ - EventType、EventData：触发特定事件
+ - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+local:MyListItem（列表项）：
+ - Logo：列表项的图标（所指定的可以是链接也可以是文件路径）
+ - Title：列表项的大标题
+ - Info：列表项的详细信息，它将会以灰色显示在大标题下方
+ - Type：若留空仅单纯展示信息，设置为 Clickable 触发相应活动
+
+-->

@@ -1,0 +1,184 @@
+﻿<local:MyCard Title="  💖"  Margin="0,10,0,15" Grid.Row="0" Grid.Column="3" CanSwap="True" >
+		<StackPanel Margin="25,40,23,15" Grid.Row="0" Grid.Column="3">
+			<TextBlock Margin="0,0,0,3" Foreground="{DynamicResource ColorBrush5}" HorizontalAlignment="Center"
+				Text=""/>
+        <TextBlock Text="写下温柔的梦" HorizontalAlignment="Center" Foreground="{DynamicResource ColorBrush4}" FontSize="16">
+            <TextBlock.Style>
+                <Style TargetType="TextBlock">
+                    <Style.Triggers>
+                            <EventTrigger RoutedEvent="MouseEnter">
+                                <EventTrigger.Actions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="20" />
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger.Actions>
+                            </EventTrigger>
+                            <EventTrigger RoutedEvent="MouseLeave">
+                                <EventTrigger.Actions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="16" />
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger.Actions>
+                            </EventTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBlock.Style>
+        </TextBlock>
+			<TextBlock Margin="0,0,0,3" Foreground="{DynamicResource ColorBrush5}" HorizontalAlignment="Center"
+				Text=""/>
+        <TextBlock Text="尽管不能触碰" HorizontalAlignment="Center" Opacity="0.85" Foreground="{DynamicResource ColorBrush4}" FontSize="16">
+            <TextBlock.Style>
+                <Style TargetType="TextBlock">
+                    <Style.Triggers>
+                            <EventTrigger RoutedEvent="MouseEnter">
+                                <EventTrigger.Actions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="20" />
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger.Actions>
+                            </EventTrigger>
+                            <EventTrigger RoutedEvent="MouseLeave">
+                                <EventTrigger.Actions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="16" />
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger.Actions>
+                            </EventTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBlock.Style>
+        </TextBlock>
+
+			<TextBlock  Opacity="0.9" Margin="0,0,0,3" Foreground="{DynamicResource ColorBrush5}" HorizontalAlignment="Center" FontSize="16"
+				Text=""/>
+        <TextBlock Text="依旧热烈跳动" HorizontalAlignment="Center" Opacity="0.70" Foreground="{DynamicResource ColorBrush4}" FontSize="16">
+            <TextBlock.Style>
+                <Style TargetType="TextBlock">
+                    <Style.Triggers>
+                            <EventTrigger RoutedEvent="MouseEnter">
+                                <EventTrigger.Actions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="20" />
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger.Actions>
+                            </EventTrigger>
+                            <EventTrigger RoutedEvent="MouseLeave">
+                                <EventTrigger.Actions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="16" />
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger.Actions>
+                            </EventTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBlock.Style>
+        </TextBlock>
+
+			<TextBlock Margin="0,0,0,3" Foreground="{DynamicResource ColorBrush5}" HorizontalAlignment="Center"
+				Text=""/>
+        <TextBlock Text="等那一刻 闹钟响起后" HorizontalAlignment="Center" Opacity="0.60" Foreground="{DynamicResource ColorBrush4}" FontSize="16">
+            <TextBlock.Style>
+                <Style TargetType="TextBlock">
+                    <Style.Triggers>
+                            <EventTrigger RoutedEvent="MouseEnter">
+                                <EventTrigger.Actions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="20" />
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger.Actions>
+                            </EventTrigger>
+                            <EventTrigger RoutedEvent="MouseLeave">
+                                <EventTrigger.Actions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Duration="0:0:0.100" Storyboard.TargetProperty="FontSize" To="16" />
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger.Actions>
+                            </EventTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBlock.Style>
+        </TextBlock>
+			<TextBlock Margin="0,0,0,3" Foreground="{DynamicResource ColorBrush5}" HorizontalAlignment="Center"
+				Text=""/>
+			<TextBlock  Opacity="0.5" Margin="0,0,0,3" Foreground="{DynamicResource ColorBrush4}" HorizontalAlignment="Right" FontStyle="Italic" FontSize="14"
+				Text="——Vicky宣宣《下一个是谁》"/>
+		</StackPanel>
+	</local:MyCard>
+<local:MyCard Title="乐斯喜欢的音乐" Margin="0,0,0,15" CanSwap="False" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyTextButton Margin="0,0,25,0" Width="1280" Height="25"  Padding="13,0,13,0" HorizontalAlignment="Left" Text="ギターと孤独と蒼い惑星" EventType="打开文件" EventData="Musics/ギターと孤独と蒼い惑星.mp3" />
+        <local:MyTextButton Margin="0,0,25,0" Width="1280" Height="25"  Padding="13,0,13,0" HorizontalAlignment="Left" Text="メフィスト (Mephisto)" EventType="打开文件" EventData="Musics/メフィスト (Mephisto).mp3" />
+        <local:MyTextButton Margin="0,0,25,0" Width="1280" Height="25"  Padding="13,0,13,0" HorizontalAlignment="Left" Text="下一个是谁" EventType="打开文件" EventData="Musics/下一个是谁.mp3" />
+    </StackPanel>
+</local:MyCard>
+
+
+<!-- 
+
+全部通用的属性：
+ - Width、Height：设置宽度与高度
+ - ToolTip：设置鼠标指向时的提示文本
+ - Background：调整背景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - Margin：调整外边距（格式为 左,上,右,下。例如 Margin="0,0,0,2" 即为 2 单位的下边距）
+
+TextBlock（纯文本）：
+ - Text：设置显示的文本（如果要使用引号等特殊字符，自行百度 XAML 转义）
+ - TextWrapping：开启自动换行
+ - FontSize：设置字号
+ - FontWeight：设置为 Bold 时，文字加粗
+ - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+Image（图片）：
+ - Source：要显示的图片的网址
+ - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+local:MyCard（卡片）：
+ - Title：设置显示的标题文本
+ - CanSwap：这张卡片是否可以折叠，True 为是，False 为否
+ - IsSwaped：这张卡片是否默认折叠，要求 CanSwap 必须为 True
+ - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）（使用时，CanSwap 属性需为 False）
+
+local:MyHint（提示条）：
+ - Text：设置显示的文本（&#xA; 代表换行）
+ - IsWarn：设置为 True 代表警告样式，False 代表提示样式
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+local:MyButton（按钮）：
+ - Text：设置显示的文本
+ - Padding：设置内边距，格式与 Margin 一致
+ - ColorType：设置颜色主题（Highlight 为当前启动器的主题颜色，Red 为红色，默认为黑色）
+ - EventType、EventData：触发特定事件
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+local:MyTextButton（文本按钮）：
+ - Text：设置显示的文本
+ - EventType、EventData：触发特定事件
+ - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+local:MyListItem（列表项）：
+ - Logo：列表项的图标（所指定的可以是链接也可以是文件路径）
+ - Title：列表项的大标题
+ - Info：列表项的详细信息，它将会以灰色显示在大标题下方
+ - Type：若留空仅单纯展示信息，设置为 Clickable 触发相应活动
+
+-->

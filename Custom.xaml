@@ -10,7 +10,7 @@
                                     ToolTip="关机" EventData="cmd.exe|/c start /min /b taskkill /FI &quot;windowtitle eq plain*&quot;" EventType="打开文件" />
 <local:MyIconButton LogoScale="1.2" Logo="M870.4512 555.008a273.92 273.92 0 0 0-55.296-99.328v-4.096a153.6 153.6 0 0 0-17.408-71.68 291.84 291.84 0 0 0-285.696-292.864 291.328 291.328 0 0 0-285.184 293.376 153.6 153.6 0 0 0-17.408 71.168v3.072a282.624 282.624 0 0 0-55.808 102.4c-27.136 89.088-21.504 190.976 41.472 212.992l12.288 3.072c-8.704 14.336-13.312 30.8224-13.312 47.616 0 68.608 74.752 118.272 177.664 118.272a235.52 235.52 0 0 0 131.072-35.328h18.432a235.008 235.008 0 0 0 130.56 35.328c102.4 0 178.176-51.2 178.176-118.272a87.552 87.552 0 0 0-13.824-47.616 51.2 51.2 0 0 0 12.8-3.072c62.976-24.064 68.608-125.952 41.472-215.04z m-77.824 132.608a33.792 33.792 0 0 0-30.72-12.8 33.792 33.792 0 0 0-27.648 18.944 346.112 346.112 0 0 1-23.552 36.864 36.352 36.352 0 0 0-6.144 30.72 35.84 35.84 0 0 0 20.48 24.064c20.992 9.216 34.304 22.016 34.304 33.28 0 22.016-46.08 46.592-107.52 46.592a153.6 153.6 0 0 1-96.256-27.648 35.84 35.84 0 0 0-25.6-8.704 204.8 204.8 0 0 1-35.328 0 34.816 34.816 0 0 0-26.112 8.704 153.6 153.6 0 0 1-96.768 27.648c-61.44 0-107.008-24.576-107.008-46.592 0-11.264 13.312-24.064 34.816-33.28a36.864 36.864 0 0 0 13.824-55.296 247.296 247.296 0 0 1-23.04-36.864 37.376 37.376 0 0 0-27.648-18.944 37.888 37.888 0 0 0-31.232 12.8 72.704 72.704 0 0 1-12.8 13.312 167.936 167.936 0 0 1 0-124.416 209.92 209.92 0 0 1 51.2-83.456 35.328 35.328 0 0 0 10.752-31.744 68.608 68.608 0 0 1 0-10.24 86.528 86.528 0 0 1 11.776-40.96 41.984 41.984 0 0 0 5.12-24.576 220.16 220.16 0 0 1 214.528-226.304 221.184 221.184 0 0 1 215.04 227.84 33.28 33.28 0 0 0 5.12 20.992c8.0384 13.312 12.4416 28.4672 12.8 44.032 0.256 3.584 0.256 7.168 0 10.752a37.376 37.376 0 0 0 9.216 30.72 204.8 204.8 0 0 1 51.2 82.944 176.128 176.128 0 0 1 3.584 123.904 40.96 40.96 0 0 1-16.384-12.288z"
                                     Height="21" Margin="0,10,60,0" HorizontalAlignment="Right" VerticalAlignment="Top"
-                                    ToolTip="奇奇怪怪的问题可以在这里反馈！" EventData="2473573684@qq.com" EventType="复制文本" />
+                                    ToolTip="奇奇怪怪的问题可以在这里反馈！" EventData="https://github.com/SYBass/SYC/issues" EventType="打开网页" />
 <local:MyIconButton LogoScale="1.2" Logo="M230.4 947.2v-76.8h243.2v-130.5856c-129.1776-17.6128-230.4768-122.8288-242.0992-253.824A166.4 166.4 0 0 1 76.8 320V128h153.6V76.8h563.2v51.2h153.6v192a166.4 166.4 0 0 1-154.752 165.9904c-11.5712 130.9696-112.8704 236.1856-242.0224 253.7984L550.4 870.4H793.6v76.8H230.4zM716.8 153.6H307.2v307.2a204.8 204.8 0 0 0 198.4 204.6976L512 665.6a204.8 204.8 0 0 0 204.8-204.8V153.6zM230.4 204.8H153.6v115.2a89.6 89.6 0 0 0 76.8 88.704V204.8z m640 0h-76.8v203.8784a89.6 89.6 0 0 0 76.8-88.6784V204.8z"
                                     Height="21" Margin="0,10,78,0" HorizontalAlignment="Right" VerticalAlignment="Top"
                                     ToolTip="今日人品" EventType="今日人品" />
@@ -22,7 +22,7 @@
                                     ToolTip="跳转龙猫教程" EventData="4|0" EventType="切换页面" />
 
 <StackPanel Margin="25,38,23,15">
-<TextBlock Text="欢迎来到SYC自定义主页进阶教学（版本 1.4.1）很高兴你能看我们的教学（此版本需要在龙猫的教程上观看哦）"  HorizontalAlignment="Center" TextWrapping="Wrap" Margin="0,10,0,5"/>
+<TextBlock Text="欢迎来到𝗦𝗬𝗖主页（版本 𝟭.𝟰.𝟮）征集处！"  HorizontalAlignment="Center" TextWrapping="Wrap" FontSize="20" Foreground="{DynamicResource ColorBrush2}" Margin="0,10,0,5"/>
         <TextBlock Margin="0,8,0,8" TextWrapping="Wrap" FontSize="15" Text="回声洞："/>
         <TextBlock Margin="0,0,0,8" Text="{cave}" Foreground="{DynamicResource ColorBrush2}" HorizontalAlignment="Left" TextWrapping="Wrap" />
         
@@ -35,193 +35,64 @@
                                 <local:MyButton  Margin="0,0,5,4" Height="35" ColorType="Highlight" Grid.Column="0"
                                             Text="关于作者" EventType="弹出窗口" EventData="关于作者|大家好，我是仕洋不是羊。&#xa;一位初（衷）牲，一个爱写XAML的人，很高兴大家能使用我的主页！（我一人写项目）&#xa;感谢大家，当然啦，我也会更新内容（可以在反馈里说你想要的功能）&#xa;本人暂时还没有网站（还没时间写）&#xa;鸣谢：哈蜜瓜糖果/微笑/三維_" />
                                 <local:MyButton  Margin="0,0,5,4" Height="35" ColorType="Highlight"
-                                            Text="反馈地址" EventType="打开网页" EventData="https://github.com/shiyang0510/PCL-SYC/issues" Grid.Column="1"/>
+                                            Text="反馈地址" EventType="打开网页" EventData="https://github.com/SYBass/SYC/issues" Grid.Column="1"/>
                                 <local:MyButton Grid.Column="2" Margin="0,0,0,4" Height="35" ColorType="Highlight"
-                                            Text="更新日志" EventType="打开网页" EventData="https://github.com/shiyang0510/PCL-SYC/releases/latest" />
+                                            Text="更新日志" EventType="打开网页" EventData="https://github.com/SYBass/SYC/releases" />
         </Grid>
 
 </StackPanel>
 
 </local:MyCard>
-
-
-<local:MyCard Title="常用网站" CanSwap="True" IsSwaped="True" Margin="0,0,0,15">
-        <StackPanel Margin="25,40,23,15" >
-
+<local:MyCard Title="模组主页！" CanSwap="True" IsSwaped="False" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15" >
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,4">
+            <TextBlock Text="创意提供：仕洋不是羊（𝗦𝗬𝗕𝗮𝘀𝘀）" FontSize="15" Margin="0,4,0,4" Foreground="{DynamicResource ColorBrush2}" FontWeight="Bold" />
+        </StackPanel>
+            <TextBlock Margin="5,0,5,12" TextWrapping="Wrap" HorizontalAlignment="Left" Foreground="{DynamicResource ColorBrush1}" Text="向大家推荐各种模组！写API的话就是日更哦~" />
+            <TextBlock Margin="5,0,5,12" TextWrapping="Wrap" HorizontalAlignment="Left" Foreground="{DynamicResource ColorBrush1}" Text="大概是这样子的：" />
             <Grid>
-                <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="1*" />
-                <ColumnDefinition Width="70" />
-                </Grid.ColumnDefinitions>
-            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Margin="4,4,18,0" />
-            <local:MyTextBox x:Name="sss" Grid.Column="0" Margin="0,4,0,0"  Height="35"/>
-            <local:MyButton Width="60" Grid.Column="1" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight" Margin="0,4,0,0"
-                    Text="搜索" EventType="打开网页" EventData="{Binding ElementName=sss,Path=Text,StringFormat=&quot;https://cn.bing.com/search?q={0}&quot;}" />
-            </Grid>
-
-<Grid UseLayoutRounding="True">
-	<Grid.RowDefinitions>
-		<RowDefinition></RowDefinition>
-	</Grid.RowDefinitions>
-	<Grid.ColumnDefinitions>
-		<ColumnDefinition Width="12*"></ColumnDefinition>
-		<ColumnDefinition Width="0.5*"></ColumnDefinition>
-		<ColumnDefinition Width="12*"></ColumnDefinition>
-	</Grid.ColumnDefinitions>
-                    <local:MyListItem Margin="-5,8,-5,8" Logo="pack://application:,,,/images/Blocks/Grass.png" Title="我的世界" Info="我的世界官网"
-                                    EventType="打开网页" EventData="https://www.minecraft.net/zh-hans" Type="Clickable" />
-                                <local:MyListItem Margin="0,8,-5,8" Logo="https://zh.minecraft.wiki/images/Wiki.png?21467" Title="中文版我的世界Wiki" Info="中文版"
-                             EventType="打开网页" EventData="https://zh.minecraft.wiki/" Type="Clickable" Grid.Column="3"/>
-                    
-</Grid>
-<Grid UseLayoutRounding="True">
-	<Grid.RowDefinitions>
-		<RowDefinition></RowDefinition>
-	</Grid.RowDefinitions>
-	<Grid.ColumnDefinitions>
-		<ColumnDefinition Width="12*"></ColumnDefinition>
-		<ColumnDefinition Width="0.5*"></ColumnDefinition>
-		<ColumnDefinition Width="12*"></ColumnDefinition>
-	</Grid.ColumnDefinitions>
-                <local:MyListItem Margin="-5,0,-5,8" Logo="https://www.mcmod.cn/static/public/images/favicon.ico" Title="MCMOD" Info="mod百科"
-                                EventType="打开网页" EventData="https://www.mcmod.cn/" Type="Clickable"/>
-<local:MyListItem Margin="0,0,-5,8" Logo="https://www.bilibili.com/favicon.ico?v=1" Title="bilibili" Info="哔哩哔哩"
-                    EventType="打开网页" EventData="https://www.bilibili.com/" Type="Clickable" Grid.Column="3"/>
-</Grid>
-<local:MyButton Margin="0,0,0,8" Text="新闻主页 - 信标" ToolTip="最亮的信标编写" Height="35" HorizontalAlignment="Center" Width="260" EventType="打开帮助" EventData="https://news.bugjump.net/News.json" />
-       </StackPanel>
-</local:MyCard>
-<local:MyHint Text="编写者：仕洋不是羊   最后更新：2024/2/25" Margin="0,0,0,8" IsWarn="False" />
-<local:MyHint Text="以下内容为仕洋原创，如有不准确/错词等问题请联系仕洋！（发给仕洋邮箱，下面能复制）" IsWarn="False" Margin="0,0,0,8"/>
-<local:MyCard Title="欢迎学习由仕洋不是羊提供的自定义主页教学！" Margin="0,0,0,15" CanSwap="False" IsSwaped="False">
-     <StackPanel Margin="25,40,23,15" >
-         <StackPanel Orientation="Horizontal" Width="800">
-            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,0,0,10" FontSize="15" Text="学前须知：本篇教学仅供参考！也可以去看看龙猫的教学！" />
-         </StackPanel>
-         <StackPanel Orientation="Horizontal" Width="800">
-            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,0,0,10" FontSize="15" Text="首先你要有一个好的编程软件，例如我正在用的：IDEA"  />
-         </StackPanel>
-         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-              <local:MyButton Text="下载" Width="200" Margin="0,8,0,10" Height="35" HorizontalAlignment="Center" ColorType="Highlight" EventType="打开网页" EventData="https://www.jetbrains.com.cn/idea/download/download-thanks.html?platform=windows" />
-          </StackPanel>
-            <TextBlock  TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,0,0,10" FontSize="15" Text="当然 一定要把此文件下载后慢慢理解 否则您大概率是听不懂的（除非您的想象力超群或者您只是好奇）" />
-         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-            <local:MyButton Text="下载本篇代码" Width="200" Margin="0,0,0,10" Height="35" HorizontalAlignment="Center" ColorType="Highlight" EventType="下载文件" EventData="http://gluvsf.mcfuns.cn/Custom.xaml" />
-
-            
-         </StackPanel>
-         <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="以下为进阶学习，请自行学习" HorizontalAlignment="Center" />
-         <local:MyButton Text="将错误日志或截图" Margin="0,0,0,10" ColorType="Highlight" EventType="复制文本" ToolTip="发给仕洋邮箱" EventData="2473573684@qq.com" Width="200" Height="35" HorizontalAlignment="Center"/>
-     </StackPanel>
-</local:MyCard>
-<local:MyCard Title="第一章：下拉菜单+WPF数据绑定" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
-        <local:MyHint Text="请注意！此章较为困难！请结合源码观看理解！（以文章的形式来展现）"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,8,0,0" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
-                     Text="      自定义跳转，是由 MyComboBox 实现的下拉菜单，并且由 MyComboBoxItem 实现菜单功能。主要是数据绑定通过WPF库的数据绑定，即可实现自定义跳转功能。简单来说，就是在同一目录下你选择的选型名称。有对应的名字相同的JSON和XAML文件，即可实现跳转。如果实在不懂，你就直接找仕洋问。没有一点毛病（" />
-        <local:MyButton Margin="0,8,0,0" Text="反馈地址" Width="200" Height="35" ColorType="Highlight" HorizontalAlignment="Right" EventData="https://gitee.com/csy0519/pcl2-GK-SY/issues" EventType="打开网页"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="以下是一个演示：" HorizontalAlignment="Left" />
-        <local:MyComboBox  Height="30" SelectedIndex="0">
-            <local:MyComboBoxItem Content="这是一个选项" />
-            <local:MyComboBoxItem Content="这是第二个" />
-        </local:MyComboBox>
-        <TextBlock TextWrapping="Wrap" Margin="0,8,0,10" FontSize="15" Text="同时也可以搭配数据绑定食用，就会有以下效果：" HorizontalAlignment="Left" />
-        <Grid>
                   <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="1*" />
                     <ColumnDefinition Width="100" />
                   </Grid.ColumnDefinitions>
                   <local:MyComboBox x:Name="jumpbox" Height="30" SelectedIndex="0">
-                    <local:MyComboBoxItem Content="学习专区" />
-
-                    <local:MyComboBoxItem Content="SYC主页更新日志"/>
+                    <local:MyComboBoxItem Content="模组主页" />
                   </local:MyComboBox>
                   <local:MyButton HorizontalAlignment="Center" Width="80" Grid.Column="1" Text="跳转→" EventType="打开帮助" EventData="{Binding Path=Text,ElementName=jumpbox,StringFormat=http://gluvsf.mcfuns.cn/Help/{0}.json}" />
-                </Grid>
-    <TextBlock TextWrapping="Wrap" Margin="0,8,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- Width：设置宽度" HorizontalAlignment="Left" />
-    <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- Height：设置高度" HorizontalAlignment="Left" />
-    <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- HorizontalAlignment：改变对齐哪里" HorizontalAlignment="Left" />
-    <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- local:MyComboBoxItem：选项" HorizontalAlignment="Left" />
-    <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- Content：选项文本（名字）" HorizontalAlignment="Left" />  
-    <TextBlock TextWrapping="Wrap" Margin="0,8,0,0" FontSize="15" Text="注意哦，这个是我从信标哪里学来的，你别说真好用（" />
-    </StackPanel>
-
-
-
-
-</local:MyCard>
-<local:MyCard Title="第二章：联网更新" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock Margin="0,0,0,8" Text="联网更新顾名思义就是：用网络进行下载并展现在自定义主页中。你可以上传至GitHub/gitee，当然你也可以上传至你的网站，这样就可以用啦！" FontSize="15" Foreground="{DynamicResource ColorBrush2}" TextWrapping="Wrap" />
-        <TextBlock Margin="0,0,0,8" Text="GitHub教程：" FontSize="15" Foreground="{DynamicResource ColorBrush2}" TextWrapping="Wrap"/>
-        <TextBlock Margin="0,0,0,8" Text="【打开项目】 - 【点击Custom.xaml】 - 【点击raw】 - 【复制链接到联网更新】" FontSize="15" Foreground="{DynamicResource ColorBrush2}" TextWrapping="Wrap"/>
-        <TextBlock Margin="0,0,0,8" Text="Gtiee教程：" FontSize="15" Foreground="{DynamicResource ColorBrush2}" TextWrapping="Wrap"/>
-        <TextBlock Margin="0,0,0,8" Text="【打开项目】 - 【点击Custom.xaml】 - 【点击原始数据】 - 【复制链接到联网更新】" FontSize="15" Foreground="{DynamicResource ColorBrush2}" TextWrapping="Wrap"/>
-        <TextBlock Margin="0,0,0,8" Text="如果你是有了GitHub仓库想更快怎么办？直接从项目拉取到gitee" FontSize="15" Foreground="{DynamicResource ColorBrush2}" TextWrapping="Wrap"/>
-        <local:MyHint Text="有网站的我就不说了(懒)" Margin="0,0,0,8" IsWarn="False"/>
-    </StackPanel>
-</local:MyCard>
-<local:MyCard Margin="0,0,0,15" Title="第三章：文本输入框" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock Margin="0,0,0,8" Text="接下来教大家MyTextBox控件（文本输入框）" FontSize="15" Foreground="{DynamicResource ColorBrush2}" TextWrapping="Wrap"/>
-        <local:MyTextBox Margin="0,0,10,8" Width="300" />
-        <TextBlock Margin="0,0,0,15" Text="接下来看它可以实现的功能：" TextWrapping="Wrap"/>
-        <local:MyHint IsWarn="False" Text="链接必须为以http://或https://开头的网址，部分网址可能无法下载（如百度网盘）" />
-            <Grid>
-                <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="1*" />
-                <ColumnDefinition Width="100" />
-                </Grid.ColumnDefinitions>
-            <local:MyTextBox x:Name="TextSearchName" Text="下载链接" Grid.Column="0" Margin="0,4,0,0"/>
-            <local:MyButton  EventType="下载文件" EventData="{Binding ElementName=web,Path=Text}" Text="开始下载" Margin="0,4,10,0" Width="80" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"  Grid.Column="1"/>
             </Grid>
-    <TextBlock TextWrapping="Wrap" Margin="0,8,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- Width：设置宽度" HorizontalAlignment="Left" />
-    <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- Height：设置高度" HorizontalAlignment="Left" />
-    <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- HorizontalAlignment：改变对齐哪里" HorizontalAlignment="Left" />
-    <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="这个比较简单，几乎都是全局控件，可以搭配 MyButton 和 Grid 一起食用" HorizontalAlignment="Left" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Margin="0,0,0,15" Title="第四章：矢量图按钮" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock Margin="0,0,0,8" Text="啥是矢量图按钮？简单来说，就是带有图片的按钮（不含文字）相信细心的同学已经发现了。我的主页快捷栏就是矢量图按钮。下面是一个示例：" FontSize="15" Foreground="{DynamicResource ColorBrush2}" TextWrapping="Wrap"/>
-        
-        <local:MyButton Margin="0,10,0,10" Width="15" Height="15" HorizontalAlignment="Center" ToolTip="刷新主页" EventType="刷新主页">
-                     		<Path Fill="{DynamicResource ColorBrush5}" Stretch="Fill" Width="15" Height="15">
-                     			<Path.Data>
-                     				<PathGeometry FillRule="Nonzero" Figures="M256.455,8C322.724,8.119,382.892,34.233,427.314,76.685L463.029,40.97C478.149,25.851,504,36.559,504,57.941L504,192C504,205.255,493.255,216,480,216L345.941,216C324.559,216,313.851,190.149,328.97,175.029L370.72,133.279C339.856,104.38 299.919,88.372 257.49,88.006 165.092,87.208 87.207,161.983 88.0059999999999,257.448 88.764,348.009 162.184,424 256,424 297.127,424 335.997,409.322 366.629,382.444 371.372,378.283 378.535,378.536 382.997,382.997L422.659,422.659C427.531,427.531 427.29,435.474 422.177,440.092 378.202,479.813 319.926,504 256,504 119.034,504 8.001,392.967 8,256.002 7.999,119.193 119.646,7.755 256.455,8z"/>
-                     			</Path.Data>
-                     		</Path>
-        </local:MyButton>
-        <TextBlock Margin="0,0,0,8" Text="上面这个" FontSize="12" Foreground="#c3c3c3" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-        <TextBlock Margin="0,0,0,8" Text="ok！那么我们已经看完了效果了，这种到底怎么做？其实这里我们用到了‘path’ 控件 （其他的看源码）其中的Figures就可以通过SVG的path来完成矢量图按钮！ " TextWrapping="Wrap" FontSize="15"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- Width：设置宽度" HorizontalAlignment="Left" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- Height：设置高度" HorizontalAlignment="Left" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- Figures：存放SVG图片属性的地方" HorizontalAlignment="Left" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="（以上是大约控件）" HorizontalAlignment="Left" />
+<local:MyCard Title="音乐主页！" CanSwap="True" IsSwaped="False" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15" >
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,4">
+            <TextBlock Text="创意提供：仕洋不是羊（𝗦𝗬𝗕𝗮𝘀𝘀）/ 𝗵𝗮𝗺𝗶𝗴𝘂𝗮𝘁𝗮𝗻𝗴" FontSize="15" Margin="0,4,0,4" Foreground="{DynamicResource ColorBrush2}" FontWeight="Bold" />
+        </StackPanel>
+            <TextBlock Margin="5,0,5,12" TextWrapping="Wrap" HorizontalAlignment="Left" Foreground="{DynamicResource ColorBrush1}" Text="这个会使用API，大概是接入推荐音乐（网易云前10或前50）" />
+            <TextBlock Margin="5,0,5,12" TextWrapping="Wrap" HorizontalAlignment="Left" Foreground="{DynamicResource ColorBrush1}" Text="大概是这样子的：" />
+            <Grid>
+                  <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="100" />
+                  </Grid.ColumnDefinitions>
+                  <local:MyComboBox x:Name="box" Height="30" SelectedIndex="0">
+                    <local:MyComboBoxItem Content="音乐主页" />
+                  </local:MyComboBox>
+                  <local:MyButton HorizontalAlignment="Center" Width="80" Grid.Column="1" Text="跳转→" EventType="打开帮助" EventData="{Binding Path=Text,ElementName=box,StringFormat=http://gluvsf.mcfuns.cn/Help/{0}.json}" />
+            </Grid>
     </StackPanel>
 </local:MyCard>
-
-<local:MyCard Margin="0,0,0,15" Title="第五章：local:MyIconButton" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock Margin="0,0,0,8" TextWrapping="Wrap" FontSize="15" Text="在龙猫2.6.5 - 2.6.6 的更新中加入了这个新的控件 “local:MyIconButton” 这也可以让我们的矢量图按钮，有了一个动画的补充（会好看些，后续我会把矢量图按钮更换成MyIconButton）"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="一个示例：" HorizontalAlignment="Left" />    
-        <local:MyIconButton ToolTip="刷新主页" EventData="刷新主页" EventType="刷新主页" Width="24" HorizontalAlignment="Center" Logo="M875.52 148.48C783.36 56.32 655.36 0 512 0 291.84 0 107.52 138.24 30.72 332.8l122.88 46.08C204.8 230.4 348.16 128 512 128c107.52 0 199.68 40.96 271.36 112.64L640 384h384V0L875.52 148.48zM512 896c-107.52 0-199.68-40.96-271.36-112.64L384 640H0v384l148.48-148.48C240.64 967.68 368.64 1024 512 1024c220.16 0 404.48-138.24 481.28-332.8L870.4 645.12C819.2 793.6 675.84 896 512 896z" />
-        <TextBlock Margin="0,8,0,8" TextWrapping="Wrap" FontSize="15" Text="它可以联系龙猫新增的回声洞/你知道么？这两个变量，让我们的自定义主页更有乐趣！"/>
-        <TextBlock Margin="0,8,0,8" TextWrapping="Wrap" FontSize="15" Text="回声洞："/>
-        <TextBlock Text="{cave}" Foreground="{DynamicResource ColorBrush2}" HorizontalAlignment="Left" TextWrapping="Wrap" />
-        <TextBlock Margin="0,8,0,8" TextWrapping="Wrap" FontSize="15" Text="你知道么？："/>
-        <TextBlock Text="{hint}" Foreground="{DynamicResource ColorBrush2}"  HorizontalAlignment="Left" TextWrapping="Wrap" />
-        <TextBlock TextWrapping="Wrap" Margin="0,8,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- Width：设置宽度" HorizontalAlignment="Left" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- Height：设置高度" HorizontalAlignment="Left" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- HorizontalAlignment：改变对齐哪里" HorizontalAlignment="Left" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- ToolTip：设置鼠标指向时的提示文本" HorizontalAlignment="Left" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- Logo：存放SVG代码的地方" HorizontalAlignment="Left" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="- LogoScale：Logo的大小" HorizontalAlignment="Left" />
+<local:MyCard Title="投稿！" CanSwap="True" IsSwaped="False" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15" >
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,4">
+            <TextBlock Text="创意提供：亲爱的你们！" FontSize="15" Margin="0,4,0,4" Foreground="{DynamicResource ColorBrush2}" FontWeight="Bold" />
+        </StackPanel>
+            <TextBlock Margin="5,0,5,12" TextWrapping="Wrap" HorizontalAlignment="Left" Foreground="{DynamicResource ColorBrush1}" Text="很高兴你可以使用我的主页！如果你也有好想法，可真的一定一定要投稿啊！！！" />
+            <TextBlock Margin="5,0,5,12" TextWrapping="Wrap" HorizontalAlignment="Left" Foreground="{DynamicResource ColorBrush1}" Text="这些是投稿方式哦~" />
+            <local:MyListItem Margin="-5,0,-5,8" Logo="https://github.com/favicon.ico" Title="投稿处~" Info="GitHub投稿" EventType="打开网页" EventData="https://github.com/SYBass/SYC/discussions/categories/%E6%96%B0%E5%8A%9F%E8%83%BD%E6%8A%95%E7%A5%A8" Type="Clickable"/>
+            <local:MyListItem Margin="-5,0,-5,8" Logo="https://github.com/favicon.ico" Title="问题反馈处！" Info="快快快！我不要做Bug匠！" EventType="打开网页" EventData="https://github.com/SYBass/SYC/issues" Type="Clickable"/>
+            <local:MyListItem Margin="-5,0,-5,8" Logo="https://github.com/favicon.ico" Title="开源仓库~" Info="鸽子的仓库里都有啥呢？...！鸽子蛋！" EventType="打开网页" EventData="https://www.curseforge.com/minecraft/mc-mods/create-fabric" Type="Clickable"/>
     </StackPanel>
 </local:MyCard>
-
-
-
 <!-- 
 
 全部通用的属性：

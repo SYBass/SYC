@@ -10,7 +10,7 @@
                                     ToolTip="关机" EventData="cmd.exe|/c start /min /b taskkill /FI &quot;windowtitle eq plain*&quot;" EventType="打开文件" />
 <local:MyIconButton LogoScale="1.2" Logo="M870.4512 555.008a273.92 273.92 0 0 0-55.296-99.328v-4.096a153.6 153.6 0 0 0-17.408-71.68 291.84 291.84 0 0 0-285.696-292.864 291.328 291.328 0 0 0-285.184 293.376 153.6 153.6 0 0 0-17.408 71.168v3.072a282.624 282.624 0 0 0-55.808 102.4c-27.136 89.088-21.504 190.976 41.472 212.992l12.288 3.072c-8.704 14.336-13.312 30.8224-13.312 47.616 0 68.608 74.752 118.272 177.664 118.272a235.52 235.52 0 0 0 131.072-35.328h18.432a235.008 235.008 0 0 0 130.56 35.328c102.4 0 178.176-51.2 178.176-118.272a87.552 87.552 0 0 0-13.824-47.616 51.2 51.2 0 0 0 12.8-3.072c62.976-24.064 68.608-125.952 41.472-215.04z m-77.824 132.608a33.792 33.792 0 0 0-30.72-12.8 33.792 33.792 0 0 0-27.648 18.944 346.112 346.112 0 0 1-23.552 36.864 36.352 36.352 0 0 0-6.144 30.72 35.84 35.84 0 0 0 20.48 24.064c20.992 9.216 34.304 22.016 34.304 33.28 0 22.016-46.08 46.592-107.52 46.592a153.6 153.6 0 0 1-96.256-27.648 35.84 35.84 0 0 0-25.6-8.704 204.8 204.8 0 0 1-35.328 0 34.816 34.816 0 0 0-26.112 8.704 153.6 153.6 0 0 1-96.768 27.648c-61.44 0-107.008-24.576-107.008-46.592 0-11.264 13.312-24.064 34.816-33.28a36.864 36.864 0 0 0 13.824-55.296 247.296 247.296 0 0 1-23.04-36.864 37.376 37.376 0 0 0-27.648-18.944 37.888 37.888 0 0 0-31.232 12.8 72.704 72.704 0 0 1-12.8 13.312 167.936 167.936 0 0 1 0-124.416 209.92 209.92 0 0 1 51.2-83.456 35.328 35.328 0 0 0 10.752-31.744 68.608 68.608 0 0 1 0-10.24 86.528 86.528 0 0 1 11.776-40.96 41.984 41.984 0 0 0 5.12-24.576 220.16 220.16 0 0 1 214.528-226.304 221.184 221.184 0 0 1 215.04 227.84 33.28 33.28 0 0 0 5.12 20.992c8.0384 13.312 12.4416 28.4672 12.8 44.032 0.256 3.584 0.256 7.168 0 10.752a37.376 37.376 0 0 0 9.216 30.72 204.8 204.8 0 0 1 51.2 82.944 176.128 176.128 0 0 1 3.584 123.904 40.96 40.96 0 0 1-16.384-12.288z"
                                     Height="21" Margin="0,10,60,0" HorizontalAlignment="Right" VerticalAlignment="Top"
-                                    ToolTip="奇奇怪怪的问题可以在这里反馈！" EventData="https://github.com/SYBass/SYC/issues" EventType="打开网页" />
+                                    ToolTip="奇奇怪怪的问题可以在这里反馈！" EventData="2473573684@qq.com" EventType="复制文本" />
 <local:MyIconButton LogoScale="1.2" Logo="M230.4 947.2v-76.8h243.2v-130.5856c-129.1776-17.6128-230.4768-122.8288-242.0992-253.824A166.4 166.4 0 0 1 76.8 320V128h153.6V76.8h563.2v51.2h153.6v192a166.4 166.4 0 0 1-154.752 165.9904c-11.5712 130.9696-112.8704 236.1856-242.0224 253.7984L550.4 870.4H793.6v76.8H230.4zM716.8 153.6H307.2v307.2a204.8 204.8 0 0 0 198.4 204.6976L512 665.6a204.8 204.8 0 0 0 204.8-204.8V153.6zM230.4 204.8H153.6v115.2a89.6 89.6 0 0 0 76.8 88.704V204.8z m640 0h-76.8v203.8784a89.6 89.6 0 0 0 76.8-88.6784V204.8z"
                                     Height="21" Margin="0,10,78,0" HorizontalAlignment="Right" VerticalAlignment="Top"
                                     ToolTip="今日人品" EventType="今日人品" />
@@ -22,9 +22,9 @@
                                     ToolTip="跳转龙猫教程" EventData="4|0" EventType="切换页面" />
 
 <StackPanel Margin="25,38,23,15">
-<TextBlock Text="欢迎来到𝗦𝗬𝗖主页（版本 𝟭.𝟰.𝟮）征集处！"  HorizontalAlignment="Center" TextWrapping="Wrap" FontSize="20" Foreground="{DynamicResource ColorBrush2}" Margin="0,10,0,5"/>
-        <TextBlock Margin="0,8,0,8" TextWrapping="Wrap" FontSize="15" Text="回声洞："/>
-        <TextBlock Margin="0,0,0,8" Text="{cave}" Foreground="{DynamicResource ColorBrush2}" HorizontalAlignment="Left" TextWrapping="Wrap" />
+<TextBlock Text="(｡･∀･)ﾉﾞ嗨！大家好！&#xa; 我是SYBoss SYC主页的负责人 &#xa; 从2024年10月20日我们SYC终于要重构啦！" Foreground="{DynamicResource ColorBrush2}" HorizontalAlignment="Center" FontSize="30" TextWrapping="Wrap" Margin="0,10,0,5"/>
+        <TextBlock Margin="0,8,0,8" TextWrapping="Wrap" FontSize="20" Text="回声洞："/>
+        <TextBlock Margin="0,0,0,8" Text="{cave}" FontSize="15" Foreground="{DynamicResource ColorBrush2}" HorizontalAlignment="Left" TextWrapping="Wrap" />
         
         <Grid>
                                 <Grid.ColumnDefinitions>
@@ -35,63 +35,121 @@
                                 <local:MyButton  Margin="0,0,5,4" Height="35" ColorType="Highlight" Grid.Column="0"
                                             Text="关于作者" EventType="弹出窗口" EventData="关于作者|大家好，我是仕洋不是羊。&#xa;一位初（衷）牲，一个爱写XAML的人，很高兴大家能使用我的主页！（我一人写项目）&#xa;感谢大家，当然啦，我也会更新内容（可以在反馈里说你想要的功能）&#xa;本人暂时还没有网站（还没时间写）&#xa;鸣谢：哈蜜瓜糖果/微笑/三維_" />
                                 <local:MyButton  Margin="0,0,5,4" Height="35" ColorType="Highlight"
-                                            Text="反馈地址" EventType="打开网页" EventData="https://github.com/SYBass/SYC/issues" Grid.Column="1"/>
+                                            Text="反馈地址" EventType="打开网页" EventData="https://github.com/SYBass/SYC/releases/tag/1.4.1" Grid.Column="1"/>
                                 <local:MyButton Grid.Column="2" Margin="0,0,0,4" Height="35" ColorType="Highlight"
-                                            Text="更新日志" EventType="打开网页" EventData="https://github.com/SYBass/SYC/releases" />
+                                            Text="更新日志" EventType="打开网页" EventData="https://github.com/SYBass/SYC/issues" />
         </Grid>
 
 </StackPanel>
 
 </local:MyCard>
-<local:MyCard Title="模组主页！" CanSwap="True" IsSwaped="False" Margin="0,0,0,15">
-    <StackPanel Margin="25,40,23,15" >
-        <StackPanel Orientation="Horizontal" Margin="0,0,0,4">
-            <TextBlock Text="创意提供：仕洋不是羊（𝗦𝗬𝗕𝗮𝘀𝘀）" FontSize="15" Margin="0,4,0,4" Foreground="{DynamicResource ColorBrush2}" FontWeight="Bold" />
-        </StackPanel>
-            <TextBlock Margin="5,0,5,12" TextWrapping="Wrap" HorizontalAlignment="Left" Foreground="{DynamicResource ColorBrush1}" Text="向大家推荐各种模组！写API的话就是日更哦~" />
-            <TextBlock Margin="5,0,5,12" TextWrapping="Wrap" HorizontalAlignment="Left" Foreground="{DynamicResource ColorBrush1}" Text="大概是这样子的：" />
+
+<local:MyHint Text="编写者：仕洋不是羊   最后更新：2024/10/20" Margin="0,0,0,8" IsWarn="False" />
+<local:MyCard Title="常用网站" CanSwap="True" IsSwaped="True" Margin="0,0,0,15">
+        <StackPanel Margin="25,40,23,15" >
+
             <Grid>
-                  <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="1*" />
-                    <ColumnDefinition Width="100" />
-                  </Grid.ColumnDefinitions>
-                  <local:MyComboBox x:Name="jumpbox" Height="30" SelectedIndex="0">
-                    <local:MyComboBoxItem Content="模组主页" />
-                  </local:MyComboBox>
-                  <local:MyButton HorizontalAlignment="Center" Width="80" Grid.Column="1" Text="跳转→" EventType="打开帮助" EventData="{Binding Path=Text,ElementName=jumpbox,StringFormat=http://gluvsf.mcfuns.cn/Help/{0}.json}" />
+                <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="70" />
+                </Grid.ColumnDefinitions>
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Margin="4,4,18,0" />
+            <local:MyTextBox x:Name="sss" Grid.Column="0" Margin="0,4,0,0"  Height="35"/>
+            <local:MyButton Width="60" Grid.Column="1" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight" Margin="0,4,0,0"
+                    Text="搜索" EventType="打开网页" EventData="{Binding ElementName=sss,Path=Text,StringFormat=&quot;https://cn.bing.com/search?q={0}&quot;}" />
             </Grid>
-    </StackPanel>
+
+<Grid UseLayoutRounding="True">
+	<Grid.RowDefinitions>
+		<RowDefinition></RowDefinition>
+	</Grid.RowDefinitions>
+	<Grid.ColumnDefinitions>
+		<ColumnDefinition Width="12*"></ColumnDefinition>
+		<ColumnDefinition Width="0.5*"></ColumnDefinition>
+		<ColumnDefinition Width="12*"></ColumnDefinition>
+	</Grid.ColumnDefinitions>
+                    <local:MyListItem Margin="-5,8,-5,8" Logo="pack://application:,,,/images/Blocks/Grass.png" Title="我的世界" Info="我的世界官网"
+                                    EventType="打开网页" EventData="https://www.minecraft.net/zh-hans" Type="Clickable" />
+                                <local:MyListItem Margin="0,8,-5,8" Logo="https://zh.minecraft.wiki/images/Wiki.png?21467" Title="中文版我的世界Wiki" Info="中文版"
+                             EventType="打开网页" EventData="https://zh.minecraft.wiki/" Type="Clickable" Grid.Column="3"/>
+                    
+</Grid>
+<Grid UseLayoutRounding="True">
+	<Grid.RowDefinitions>
+		<RowDefinition></RowDefinition>
+	</Grid.RowDefinitions>
+	<Grid.ColumnDefinitions>
+		<ColumnDefinition Width="12*"></ColumnDefinition>
+		<ColumnDefinition Width="0.5*"></ColumnDefinition>
+		<ColumnDefinition Width="12*"></ColumnDefinition>
+	</Grid.ColumnDefinitions>
+                <local:MyListItem Margin="-5,0,-5,8" Logo="https://www.mcmod.cn/static/public/images/favicon.ico" Title="MCMOD" Info="mod百科"
+                                EventType="打开网页" EventData="https://www.mcmod.cn/" Type="Clickable"/>
+<local:MyListItem Margin="0,0,-5,8" Logo="https://www.bilibili.com/favicon.ico?v=1" Title="bilibili" Info="哔哩哔哩"
+                    EventType="打开网页" EventData="https://www.bilibili.com/" Type="Clickable" Grid.Column="3"/>
+</Grid>
+<local:MyButton Margin="0,0,0,8" Text="新闻主页 - 信标" ToolTip="最亮的信标编写" Height="35" HorizontalAlignment="Center" Width="260" EventType="打开帮助" EventData="https://news.bugjump.net/News.json" />
+       </StackPanel>
 </local:MyCard>
-<local:MyCard Title="音乐主页！" CanSwap="True" IsSwaped="False" Margin="0,0,0,15">
-    <StackPanel Margin="25,40,23,15" >
-        <StackPanel Orientation="Horizontal" Margin="0,0,0,4">
-            <TextBlock Text="创意提供：仕洋不是羊（𝗦𝗬𝗕𝗮𝘀𝘀）/ 𝗵𝗮𝗺𝗶𝗴𝘂𝗮𝘁𝗮𝗻𝗴" FontSize="15" Margin="0,4,0,4" Foreground="{DynamicResource ColorBrush2}" FontWeight="Bold" />
-        </StackPanel>
-            <TextBlock Margin="5,0,5,12" TextWrapping="Wrap" HorizontalAlignment="Left" Foreground="{DynamicResource ColorBrush1}" Text="这个会使用API，大概是接入推荐音乐（网易云前10或前50）" />
-            <TextBlock Margin="5,0,5,12" TextWrapping="Wrap" HorizontalAlignment="Left" Foreground="{DynamicResource ColorBrush1}" Text="大概是这样子的：" />
-            <Grid>
-                  <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="1*" />
-                    <ColumnDefinition Width="100" />
-                  </Grid.ColumnDefinitions>
-                  <local:MyComboBox x:Name="box" Height="30" SelectedIndex="0">
-                    <local:MyComboBoxItem Content="音乐主页" />
-                  </local:MyComboBox>
-                  <local:MyButton HorizontalAlignment="Center" Width="80" Grid.Column="1" Text="跳转→" EventType="打开帮助" EventData="{Binding Path=Text,ElementName=box,StringFormat=http://gluvsf.mcfuns.cn/Help/{0}.json}" />
+<local:MyCard Margin="0,0,0,14">
+    <Border BorderBrush="{DynamicResource ColorBrush2}"
+            Margin="-0.6"
+            CornerRadius="5"
+            BorderThickness="0,0,0,10">
+        <StackPanel>
+            <Grid Margin="26,20,20,2">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal"
+                                VerticalAlignment="Center"
+                                Margin="0,0,0,4">
+                        <TextBlock FontSize="18"
+                                   Foreground="{DynamicResource ColorBrush2}">
+                            <Bold>PCL2 SYC主页</Bold>
+                        </TextBlock>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal"
+                                VerticalAlignment="Center"
+                                Margin="-8,20,0,10">
+                        <local:MyIconTextButton HorizontalAlignment="Left"
+                                                Text="GitHub"
+                                                ToolTip="前往主页广场 GitHub 页面"
+                                                EventType="打开网页"
+                                                EventData="https://github.com/SYBass/SYC"
+                                                LogoScale="1"
+                                                Logo="M512 42.666667A464.64 464.64 0 0 0 42.666667 502.186667 460.373333 460.373333 0 0 0 363.52 938.666667c23.466667 4.266667 32-9.813333 32-22.186667v-78.08c-130.56 27.733333-158.293333-61.44-158.293333-61.44a122.026667 122.026667 0 0 0-52.053334-67.413333c-42.666667-28.16 3.413333-27.733333 3.413334-27.733334a98.56 98.56 0 0 1 71.68 47.36 101.12 101.12 0 0 0 136.533333 37.973334 99.413333 99.413333 0 0 1 29.866667-61.44c-104.106667-11.52-213.333333-50.773333-213.333334-226.986667a177.066667 177.066667 0 0 1 47.36-124.16 161.28 161.28 0 0 1 4.693334-121.173333s39.68-12.373333 128 46.933333a455.68 455.68 0 0 1 234.666666 0c89.6-59.306667 128-46.933333 128-46.933333a161.28 161.28 0 0 1 4.693334 121.173333A177.066667 177.066667 0 0 1 810.666667 477.866667c0 176.64-110.08 215.466667-213.333334 226.986666a106.666667 106.666667 0 0 1 32 85.333334v125.866666c0 14.933333 8.533333 26.88 32 22.186667A460.8 460.8 0 0 0 981.333333 502.186667 464.64 464.64 0 0 0 512 42.666667" />
+                        <local:MyIconTextButton Text="鸣谢"
+                                                ToolTip="感谢为本项目提供了技术支持的人"
+                                                EventType="弹出窗口"
+                                                EventData="鸣谢|在此感谢为SYC主页提供了技术支持的人\n鸣谢列表：\n 三维_ 初步UI \n 哈蜜瓜糖果 服务器支持\n 群中的各位"
+                                                LogoScale="1"
+                                                Logo="M330.688 192c41.152 0 74.624 33.536 74.624 74.688V352a32 32 0 1 0 64.064 0V266.688a138.88 138.88 0 0 0-138.688-138.752 32 32 0 1 0 0 64.128z m225.792 279.232a32 32 0 0 1-22.656-54.72c23.808-23.808 50.752-22.656 66.816-22.016 13.888 0.64 15.424 0.128 18.816-3.2 3.328-3.392 3.84-4.928 3.2-18.752-0.64-16.064-1.92-43.008 21.952-66.816 23.808-23.808 50.752-22.656 66.816-22.016 13.888 0.64 15.424 0.128 18.816-3.2 3.392-3.456 3.84-4.992 3.328-18.944-0.64-16.064-1.792-43.008 22.08-66.816 23.808-23.872 50.752-22.72 66.816-22.08 13.952 0.576 15.488 0.064 18.88-3.328a32 32 0 0 1 45.312 45.312c-23.808 23.808-50.752 22.72-66.816 22.08-13.952-0.64-15.488-0.064-18.88 3.328-3.392 3.392-3.904 4.928-3.328 18.88 0.64 16.064 1.728 43.008-22.08 66.816s-50.752 22.72-66.816 22.016c-13.888-0.576-15.424-0.064-18.816 3.328-3.328 3.328-3.84 4.864-3.2 18.688 0.64 16.064 1.856 43.008-21.952 66.816-23.808 23.808-50.752 22.656-66.816 21.952-13.888-0.64-15.424-0.064-18.752 3.264a32 32 0 0 1-22.72 9.408zM512.64 208.896a31.808 31.808 0 0 0 13.632 20.48 32 32 0 0 0 46.08-11.584 36.096 36.096 0 0 0 3.2-8.896 31.616 31.616 0 0 0-13.696-32.896 27.648 27.648 0 0 0-8.448-3.968 31.68 31.68 0 0 0-37.568 15.552 35.712 35.712 0 0 0-3.2 8.832 31.104 31.104 0 0 0 0 12.48zM302.08 384.832c10.752-2.56 22.144 0.64 30.016 8.512l298.624 298.688a32 32 0 0 1-12.48 53.056l-448 149.312a32 32 0 0 1-40.576-40.512l149.312-448a32 32 0 0 1 23.04-21.12z m591.552 82.944a29.76 29.76 0 0 1 2.496 12.16 32.192 32.192 0 0 1-16.96 28.352A33.024 33.024 0 0 1 864 512a32.512 32.512 0 0 1-20.288-7.296 27.264 27.264 0 0 1-4.48-4.48 30.464 30.464 0 0 1-5.888-10.944 31.744 31.744 0 0 1 24.384-40.768 31.68 31.68 0 0 1 35.84 19.2z m-570.24 7.552l-112.64 337.984 337.984-112.64-225.28-225.28z m433.984 79.296H672a32 32 0 1 0 0 64.064h85.312c41.152 0 74.624 33.472 74.624 74.624a32 32 0 1 0 64.128 0 138.88 138.88 0 0 0-138.752-138.688z" />
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Right">
+                    <local:MyIconTextButton HorizontalAlignment="Left"
+                                            ToolTip="反馈SYC主页问题"
+                                            Text="反馈"
+                                            EventType="打开网页"
+                                            EventData="https://github.com/SYBass/SYC/issues/new/choose"
+                                            LogoScale="1"
+                                            Logo="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0z M1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0z" />
+                    <local:MyIconTextButton HorizontalAlignment="Left"
+                                            ToolTip="投稿新的建议和想法"
+                                            Text="投稿"
+                                            EventType="打开网页"
+                                            EventData="https://github.com/SYBass/SYC/discussions/new?category=%E6%96%B0%E5%8A%9F%E8%83%BD%E6%8A%95%E7%A5%A8l"
+                                            LogoScale="1"
+                                            Logo="M464.5888 584.3456a25.088 25.088 0 0 1-17.7664-42.8032l377.1904-377.1904a25.088 25.088 0 0 1 35.4816 35.4816L482.304 577.024a24.9856 24.9856 0 0 1-17.7152 7.3216z m165.2736 337.1008a25.088 25.088 0 0 1-22.6304-14.2336l-153.7024-321.536L116.224 416.3584a25.088 25.088 0 0 1 3.328-46.2336l753.0496-250.6752a25.088 25.088 0 1 1 31.7952 31.744L653.7216 904.192a25.088 25.088 0 0 1-22.2208 17.1008c-0.6144 0.1024-1.1264 0.1024-1.6384 0.1024zM192.8192 398.6432l290.816 146.0224a25.2416 25.2416 0 0 1 11.4176 11.6224l130.56 273.152 215.296-646.5024L192.8192 398.6432z m192.768 393.728a25.088 25.088 0 0 1-24.576-30.0544l39.4752-197.376a25.088 25.088 0 1 1 49.2032 9.8304l-27.648 137.8816 67.9936-45.2608a25.088 25.088 0 0 1 27.8528 41.7792l-118.4256 78.8992a24.7296 24.7296 0 0 1-13.8752 4.2496z" />
+                    <local:MyIconTextButton HorizontalAlignment="Left"
+                                            Text="刷新"
+                                            ToolTip="刷新主页广场"
+                                            EventType="刷新主页"
+                                            LogoScale="0.9"
+                                            Logo="M960 416V192l-73.056 73.056a447.712 447.712 0 0 0-373.6-201.088C265.92 63.968 65.312 264.544 65.312 512S265.92 960.032 513.344 960.032a448.064 448.064 0 0 0 415.232-279.488 38.368 38.368 0 1 0-71.136-28.896 371.36 371.36 0 0 1-344.096 231.584C308.32 883.232 142.112 717.024 142.112 512S308.32 140.768 513.344 140.768c132.448 0 251.936 70.08 318.016 179.84L736 416h224z" />
+                </StackPanel>
             </Grid>
-    </StackPanel>
-</local:MyCard>
-<local:MyCard Title="投稿！" CanSwap="True" IsSwaped="False" Margin="0,0,0,15">
-    <StackPanel Margin="25,40,23,15" >
-        <StackPanel Orientation="Horizontal" Margin="0,0,0,4">
-            <TextBlock Text="创意提供：亲爱的你们！" FontSize="15" Margin="0,4,0,4" Foreground="{DynamicResource ColorBrush2}" FontWeight="Bold" />
         </StackPanel>
-            <TextBlock Margin="5,0,5,12" TextWrapping="Wrap" HorizontalAlignment="Left" Foreground="{DynamicResource ColorBrush1}" Text="很高兴你可以使用我的主页！如果你也有好想法，可真的一定一定要投稿啊！！！" />
-            <TextBlock Margin="5,0,5,12" TextWrapping="Wrap" HorizontalAlignment="Left" Foreground="{DynamicResource ColorBrush1}" Text="这些是投稿方式哦~" />
-            <local:MyListItem Margin="-5,0,-5,8" Logo="https://github.com/favicon.ico" Title="投稿处~" Info="GitHub投稿" EventType="打开网页" EventData="https://github.com/SYBass/SYC/discussions/categories/%E6%96%B0%E5%8A%9F%E8%83%BD%E6%8A%95%E7%A5%A8" Type="Clickable"/>
-            <local:MyListItem Margin="-5,0,-5,8" Logo="https://github.com/favicon.ico" Title="问题反馈处！" Info="快快快！我不要做Bug匠！" EventType="打开网页" EventData="https://github.com/SYBass/SYC/issues" Type="Clickable"/>
-            <local:MyListItem Margin="-5,0,-5,8" Logo="https://github.com/favicon.ico" Title="开源仓库~" Info="鸽子的仓库里都有啥呢？...！鸽子蛋！" EventType="打开网页" EventData="https://www.curseforge.com/minecraft/mc-mods/create-fabric" Type="Clickable"/>
-    </StackPanel>
+    </Border>
 </local:MyCard>
 <!-- 
 
